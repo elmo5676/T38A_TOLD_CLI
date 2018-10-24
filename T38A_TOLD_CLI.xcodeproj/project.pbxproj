@@ -8,6 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		5290CC082180AB7000B7A61C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC072180AB7000B7A61C /* main.swift */; };
+		5290CC312180ACE100B7A61C /* GonkCleaned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1A2180ACE000B7A61C /* GonkCleaned.swift */; };
+		5290CC322180ACE100B7A61C /* Corrections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1B2180ACE000B7A61C /* Corrections.swift */; };
+		5290CC332180ACE100B7A61C /* GonkRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1C2180ACE000B7A61C /* GonkRS.swift */; };
+		5290CC342180ACE100B7A61C /* GonkTOData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1D2180ACE000B7A61C /* GonkTOData.swift */; };
+		5290CC352180ACE100B7A61C /* NACSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1E2180ACE000B7A61C /* NACSData.swift */; };
+		5290CC362180ACE100B7A61C /* DSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1F2180ACE000B7A61C /* DSData.swift */; };
+		5290CC372180ACE100B7A61C /* SECG200ftNmGDKiasData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC202180ACE000B7A61C /* SECG200ftNmGDKiasData.swift */; };
+		5290CC382180ACE100B7A61C /* SECG190KiasFtNmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC212180ACE000B7A61C /* SECG190KiasFtNmData.swift */; };
+		5290CC392180ACE100B7A61C /* TOLDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC222180ACE000B7A61C /* TOLDError.swift */; };
+		5290CC3A2180ACE100B7A61C /* RS_EFData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC232180ACE000B7A61C /* RS_EFData.swift */; };
+		5290CC3B2180ACE100B7A61C /* CFLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC242180ACE000B7A61C /* CFLData.swift */; };
+		5290CC3C2180ACE100B7A61C /* DensityRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC252180ACE000B7A61C /* DensityRatio.swift */; };
+		5290CC3D2180ACE100B7A61C /* SECG190KiasNMIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC262180ACE000B7A61C /* SECG190KiasNMIData.swift */; };
+		5290CC3E2180ACE100B7A61C /* GonkDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC272180ACE100B7A61C /* GonkDS.swift */; };
+		5290CC3F2180ACE100B7A61C /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC282180ACE100B7A61C /* Wind.swift */; };
+		5290CC402180ACE100B7A61C /* SECG200FtNmGDNMIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC292180ACE100B7A61C /* SECG200FtNmGDNMIData.swift */; };
+		5290CC412180ACE100B7A61C /* SETOSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2A2180ACE100B7A61C /* SETOSData.swift */; };
+		5290CC422180ACE100B7A61C /* TakeOffDistanceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2B2180ACE100B7A61C /* TakeOffDistanceData.swift */; };
+		5290CC432180ACE100B7A61C /* RS_BEOData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2C2180ACE100B7A61C /* RS_BEOData.swift */; };
+		5290CC442180ACE100B7A61C /* DS_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2D2180ACE100B7A61C /* DS_Data.swift */; };
+		5290CC452180ACE100B7A61C /* CEFSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2E2180ACE100B7A61C /* CEFSData.swift */; };
+		5290CC462180ACE100B7A61C /* ArraySolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2F2180ACE100B7A61C /* ArraySolver.swift */; };
+		5290CC472180ACE100B7A61C /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC302180ACE100B7A61C /* Double+Extensions.swift */; };
+		5290CC4A2180ACEE00B7A61C /* CFLTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC482180ACEE00B7A61C /* CFLTest.swift */; };
+		5290CC4B2180ACEE00B7A61C /* TODistanceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC492180ACEE00B7A61C /* TODistanceTest.swift */; };
+		5290CC4C2180AD0300B7A61C /* ArraySolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2F2180ACE100B7A61C /* ArraySolver.swift */; };
+		5290CC4D2180AD0600B7A61C /* CEFSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2E2180ACE100B7A61C /* CEFSData.swift */; };
+		5290CC4E2180AD0A00B7A61C /* CFLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC242180ACE000B7A61C /* CFLData.swift */; };
+		5290CC4F2180AD0D00B7A61C /* Corrections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1B2180ACE000B7A61C /* Corrections.swift */; };
+		5290CC502180AD1000B7A61C /* DensityRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC252180ACE000B7A61C /* DensityRatio.swift */; };
+		5290CC512180AD1200B7A61C /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC302180ACE100B7A61C /* Double+Extensions.swift */; };
+		5290CC522180AD1500B7A61C /* DS_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2D2180ACE100B7A61C /* DS_Data.swift */; };
+		5290CC532180AD1800B7A61C /* DSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1F2180ACE000B7A61C /* DSData.swift */; };
+		5290CC542180AD1A00B7A61C /* GonkCleaned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1A2180ACE000B7A61C /* GonkCleaned.swift */; };
+		5290CC552180AD1D00B7A61C /* GonkDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC272180ACE100B7A61C /* GonkDS.swift */; };
+		5290CC562180AD1F00B7A61C /* GonkRS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1C2180ACE000B7A61C /* GonkRS.swift */; };
+		5290CC572180AD2200B7A61C /* GonkTOData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1D2180ACE000B7A61C /* GonkTOData.swift */; };
+		5290CC582180AD2500B7A61C /* NACSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1E2180ACE000B7A61C /* NACSData.swift */; };
+		5290CC592180AD2700B7A61C /* RS_BEOData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2C2180ACE100B7A61C /* RS_BEOData.swift */; };
+		5290CC5A2180AD2A00B7A61C /* RS_EFData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC232180ACE000B7A61C /* RS_EFData.swift */; };
+		5290CC5B2180AD2C00B7A61C /* SECG190KiasFtNmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC212180ACE000B7A61C /* SECG190KiasFtNmData.swift */; };
+		5290CC5C2180AD2F00B7A61C /* SECG190KiasNMIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC262180ACE000B7A61C /* SECG190KiasNMIData.swift */; };
+		5290CC5D2180AD3100B7A61C /* SECG200ftNmGDKiasData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC202180ACE000B7A61C /* SECG200ftNmGDKiasData.swift */; };
+		5290CC5E2180AD3400B7A61C /* SECG200FtNmGDNMIData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC292180ACE100B7A61C /* SECG200FtNmGDNMIData.swift */; };
+		5290CC5F2180AD3700B7A61C /* SETOSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2A2180ACE100B7A61C /* SETOSData.swift */; };
+		5290CC602180AD3900B7A61C /* TakeOffDistanceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2B2180ACE100B7A61C /* TakeOffDistanceData.swift */; };
+		5290CC612180AD3C00B7A61C /* TOLDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC222180ACE000B7A61C /* TOLDError.swift */; };
+		5290CC622180AD3F00B7A61C /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC282180ACE100B7A61C /* Wind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +73,44 @@
 /* Begin PBXFileReference section */
 		5290CC042180AB7000B7A61C /* T38A_TOLD_CLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = T38A_TOLD_CLI; sourceTree = BUILT_PRODUCTS_DIR; };
 		5290CC072180AB7000B7A61C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5290CC122180AB9C00B7A61C /* T38A_TOLD_CLI_UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T38A_TOLD_CLI_UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5290CC162180AB9C00B7A61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5290CC1A2180ACE000B7A61C /* GonkCleaned.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GonkCleaned.swift; sourceTree = "<group>"; };
+		5290CC1B2180ACE000B7A61C /* Corrections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Corrections.swift; sourceTree = "<group>"; };
+		5290CC1C2180ACE000B7A61C /* GonkRS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GonkRS.swift; sourceTree = "<group>"; };
+		5290CC1D2180ACE000B7A61C /* GonkTOData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GonkTOData.swift; sourceTree = "<group>"; };
+		5290CC1E2180ACE000B7A61C /* NACSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NACSData.swift; sourceTree = "<group>"; };
+		5290CC1F2180ACE000B7A61C /* DSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSData.swift; sourceTree = "<group>"; };
+		5290CC202180ACE000B7A61C /* SECG200ftNmGDKiasData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECG200ftNmGDKiasData.swift; sourceTree = "<group>"; };
+		5290CC212180ACE000B7A61C /* SECG190KiasFtNmData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECG190KiasFtNmData.swift; sourceTree = "<group>"; };
+		5290CC222180ACE000B7A61C /* TOLDError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TOLDError.swift; sourceTree = "<group>"; };
+		5290CC232180ACE000B7A61C /* RS_EFData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RS_EFData.swift; sourceTree = "<group>"; };
+		5290CC242180ACE000B7A61C /* CFLData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFLData.swift; sourceTree = "<group>"; };
+		5290CC252180ACE000B7A61C /* DensityRatio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DensityRatio.swift; sourceTree = "<group>"; };
+		5290CC262180ACE000B7A61C /* SECG190KiasNMIData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECG190KiasNMIData.swift; sourceTree = "<group>"; };
+		5290CC272180ACE100B7A61C /* GonkDS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GonkDS.swift; sourceTree = "<group>"; };
+		5290CC282180ACE100B7A61C /* Wind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		5290CC292180ACE100B7A61C /* SECG200FtNmGDNMIData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECG200FtNmGDNMIData.swift; sourceTree = "<group>"; };
+		5290CC2A2180ACE100B7A61C /* SETOSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SETOSData.swift; sourceTree = "<group>"; };
+		5290CC2B2180ACE100B7A61C /* TakeOffDistanceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeOffDistanceData.swift; sourceTree = "<group>"; };
+		5290CC2C2180ACE100B7A61C /* RS_BEOData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RS_BEOData.swift; sourceTree = "<group>"; };
+		5290CC2D2180ACE100B7A61C /* DS_Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DS_Data.swift; sourceTree = "<group>"; };
+		5290CC2E2180ACE100B7A61C /* CEFSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEFSData.swift; sourceTree = "<group>"; };
+		5290CC2F2180ACE100B7A61C /* ArraySolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArraySolver.swift; sourceTree = "<group>"; };
+		5290CC302180ACE100B7A61C /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		5290CC482180ACEE00B7A61C /* CFLTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFLTest.swift; sourceTree = "<group>"; };
+		5290CC492180ACEE00B7A61C /* TODistanceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TODistanceTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5290CC012180AB7000B7A61C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5290CC0F2180AB9C00B7A61C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				5290CC062180AB7000B7A61C /* T38A_TOLD_CLI */,
+				5290CC132180AB9C00B7A61C /* T38A_TOLD_CLI_UnitTests */,
 				5290CC052180AB7000B7A61C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				5290CC042180AB7000B7A61C /* T38A_TOLD_CLI */,
+				5290CC122180AB9C00B7A61C /* T38A_TOLD_CLI_UnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +142,89 @@
 			isa = PBXGroup;
 			children = (
 				5290CC072180AB7000B7A61C /* main.swift */,
+				5290CC632180AE2400B7A61C /* Scrap */,
+				5290CC642180AE3300B7A61C /* SECG */,
+				5290CC652180AE5C00B7A61C /* TO */,
+				5290CC662180AE8E00B7A61C /* Utilities */,
+				5290CC672180AEA800B7A61C /* DS */,
+				5290CC682180AEB400B7A61C /* RS */,
 			);
 			path = T38A_TOLD_CLI;
+			sourceTree = "<group>";
+		};
+		5290CC132180AB9C00B7A61C /* T38A_TOLD_CLI_UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5290CC482180ACEE00B7A61C /* CFLTest.swift */,
+				5290CC492180ACEE00B7A61C /* TODistanceTest.swift */,
+				5290CC162180AB9C00B7A61C /* Info.plist */,
+			);
+			path = T38A_TOLD_CLI_UnitTests;
+			sourceTree = "<group>";
+		};
+		5290CC632180AE2400B7A61C /* Scrap */ = {
+			isa = PBXGroup;
+			children = (
+				5290CC2F2180ACE100B7A61C /* ArraySolver.swift */,
+				5290CC2D2180ACE100B7A61C /* DS_Data.swift */,
+				5290CC1A2180ACE000B7A61C /* GonkCleaned.swift */,
+			);
+			path = Scrap;
+			sourceTree = "<group>";
+		};
+		5290CC642180AE3300B7A61C /* SECG */ = {
+			isa = PBXGroup;
+			children = (
+				5290CC212180ACE000B7A61C /* SECG190KiasFtNmData.swift */,
+				5290CC262180ACE000B7A61C /* SECG190KiasNMIData.swift */,
+				5290CC202180ACE000B7A61C /* SECG200ftNmGDKiasData.swift */,
+				5290CC292180ACE100B7A61C /* SECG200FtNmGDNMIData.swift */,
+			);
+			path = SECG;
+			sourceTree = "<group>";
+		};
+		5290CC652180AE5C00B7A61C /* TO */ = {
+			isa = PBXGroup;
+			children = (
+				5290CC1D2180ACE000B7A61C /* GonkTOData.swift */,
+				5290CC2E2180ACE100B7A61C /* CEFSData.swift */,
+				5290CC242180ACE000B7A61C /* CFLData.swift */,
+				5290CC1E2180ACE000B7A61C /* NACSData.swift */,
+				5290CC2A2180ACE100B7A61C /* SETOSData.swift */,
+				5290CC2B2180ACE100B7A61C /* TakeOffDistanceData.swift */,
+			);
+			path = TO;
+			sourceTree = "<group>";
+		};
+		5290CC662180AE8E00B7A61C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5290CC1B2180ACE000B7A61C /* Corrections.swift */,
+				5290CC252180ACE000B7A61C /* DensityRatio.swift */,
+				5290CC302180ACE100B7A61C /* Double+Extensions.swift */,
+				5290CC222180ACE000B7A61C /* TOLDError.swift */,
+				5290CC282180ACE100B7A61C /* Wind.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5290CC672180AEA800B7A61C /* DS */ = {
+			isa = PBXGroup;
+			children = (
+				5290CC1F2180ACE000B7A61C /* DSData.swift */,
+				5290CC272180ACE100B7A61C /* GonkDS.swift */,
+			);
+			path = DS;
+			sourceTree = "<group>";
+		};
+		5290CC682180AEB400B7A61C /* RS */ = {
+			isa = PBXGroup;
+			children = (
+				5290CC1C2180ACE000B7A61C /* GonkRS.swift */,
+				5290CC2C2180ACE100B7A61C /* RS_BEOData.swift */,
+				5290CC232180ACE000B7A61C /* RS_EFData.swift */,
+			);
+			path = RS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +247,23 @@
 			productReference = 5290CC042180AB7000B7A61C /* T38A_TOLD_CLI */;
 			productType = "com.apple.product-type.tool";
 		};
+		5290CC112180AB9C00B7A61C /* T38A_TOLD_CLI_UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5290CC172180AB9C00B7A61C /* Build configuration list for PBXNativeTarget "T38A_TOLD_CLI_UnitTests" */;
+			buildPhases = (
+				5290CC0E2180AB9C00B7A61C /* Sources */,
+				5290CC0F2180AB9C00B7A61C /* Frameworks */,
+				5290CC102180AB9C00B7A61C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T38A_TOLD_CLI_UnitTests;
+			productName = T38A_TOLD_CLI_UnitTests;
+			productReference = 5290CC122180AB9C00B7A61C /* T38A_TOLD_CLI_UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +275,9 @@
 				ORGANIZATIONNAME = "Matthew Elmore";
 				TargetAttributes = {
 					5290CC032180AB7000B7A61C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5290CC112180AB9C00B7A61C = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
@@ -110,16 +295,82 @@
 			projectRoot = "";
 			targets = (
 				5290CC032180AB7000B7A61C /* T38A_TOLD_CLI */,
+				5290CC112180AB9C00B7A61C /* T38A_TOLD_CLI_UnitTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5290CC102180AB9C00B7A61C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5290CC002180AB7000B7A61C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5290CC472180ACE100B7A61C /* Double+Extensions.swift in Sources */,
+				5290CC442180ACE100B7A61C /* DS_Data.swift in Sources */,
+				5290CC352180ACE100B7A61C /* NACSData.swift in Sources */,
+				5290CC402180ACE100B7A61C /* SECG200FtNmGDNMIData.swift in Sources */,
+				5290CC3E2180ACE100B7A61C /* GonkDS.swift in Sources */,
+				5290CC3D2180ACE100B7A61C /* SECG190KiasNMIData.swift in Sources */,
 				5290CC082180AB7000B7A61C /* main.swift in Sources */,
+				5290CC342180ACE100B7A61C /* GonkTOData.swift in Sources */,
+				5290CC362180ACE100B7A61C /* DSData.swift in Sources */,
+				5290CC3C2180ACE100B7A61C /* DensityRatio.swift in Sources */,
+				5290CC412180ACE100B7A61C /* SETOSData.swift in Sources */,
+				5290CC3F2180ACE100B7A61C /* Wind.swift in Sources */,
+				5290CC372180ACE100B7A61C /* SECG200ftNmGDKiasData.swift in Sources */,
+				5290CC432180ACE100B7A61C /* RS_BEOData.swift in Sources */,
+				5290CC382180ACE100B7A61C /* SECG190KiasFtNmData.swift in Sources */,
+				5290CC452180ACE100B7A61C /* CEFSData.swift in Sources */,
+				5290CC312180ACE100B7A61C /* GonkCleaned.swift in Sources */,
+				5290CC3B2180ACE100B7A61C /* CFLData.swift in Sources */,
+				5290CC422180ACE100B7A61C /* TakeOffDistanceData.swift in Sources */,
+				5290CC322180ACE100B7A61C /* Corrections.swift in Sources */,
+				5290CC332180ACE100B7A61C /* GonkRS.swift in Sources */,
+				5290CC3A2180ACE100B7A61C /* RS_EFData.swift in Sources */,
+				5290CC462180ACE100B7A61C /* ArraySolver.swift in Sources */,
+				5290CC392180ACE100B7A61C /* TOLDError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5290CC0E2180AB9C00B7A61C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5290CC5B2180AD2C00B7A61C /* SECG190KiasFtNmData.swift in Sources */,
+				5290CC4F2180AD0D00B7A61C /* Corrections.swift in Sources */,
+				5290CC592180AD2700B7A61C /* RS_BEOData.swift in Sources */,
+				5290CC5D2180AD3100B7A61C /* SECG200ftNmGDKiasData.swift in Sources */,
+				5290CC522180AD1500B7A61C /* DS_Data.swift in Sources */,
+				5290CC5F2180AD3700B7A61C /* SETOSData.swift in Sources */,
+				5290CC542180AD1A00B7A61C /* GonkCleaned.swift in Sources */,
+				5290CC4E2180AD0A00B7A61C /* CFLData.swift in Sources */,
+				5290CC512180AD1200B7A61C /* Double+Extensions.swift in Sources */,
+				5290CC4D2180AD0600B7A61C /* CEFSData.swift in Sources */,
+				5290CC562180AD1F00B7A61C /* GonkRS.swift in Sources */,
+				5290CC5A2180AD2A00B7A61C /* RS_EFData.swift in Sources */,
+				5290CC582180AD2500B7A61C /* NACSData.swift in Sources */,
+				5290CC532180AD1800B7A61C /* DSData.swift in Sources */,
+				5290CC5C2180AD2F00B7A61C /* SECG190KiasNMIData.swift in Sources */,
+				5290CC502180AD1000B7A61C /* DensityRatio.swift in Sources */,
+				5290CC602180AD3900B7A61C /* TakeOffDistanceData.swift in Sources */,
+				5290CC552180AD1D00B7A61C /* GonkDS.swift in Sources */,
+				5290CC572180AD2200B7A61C /* GonkTOData.swift in Sources */,
+				5290CC4A2180ACEE00B7A61C /* CFLTest.swift in Sources */,
+				5290CC5E2180AD3400B7A61C /* SECG200FtNmGDNMIData.swift in Sources */,
+				5290CC4C2180AD0300B7A61C /* ArraySolver.swift in Sources */,
+				5290CC4B2180ACEE00B7A61C /* TODistanceTest.swift in Sources */,
+				5290CC612180AD3C00B7A61C /* TOLDError.swift in Sources */,
+				5290CC622180AD3F00B7A61C /* Wind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +512,42 @@
 			};
 			name = Release;
 		};
+		5290CC182180AB9C00B7A61C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KG653N5ES4;
+				INFOPLIST_FILE = T38A_TOLD_CLI_UnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elmo.T38A-TOLD-CLI-UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		5290CC192180AB9C00B7A61C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KG653N5ES4;
+				INFOPLIST_FILE = T38A_TOLD_CLI_UnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "elmo.T38A-TOLD-CLI-UnitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -278,6 +565,15 @@
 			buildConfigurations = (
 				5290CC0C2180AB7000B7A61C /* Debug */,
 				5290CC0D2180AB7000B7A61C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5290CC172180AB9C00B7A61C /* Build configuration list for PBXNativeTarget "T38A_TOLD_CLI_UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5290CC182180AB9C00B7A61C /* Debug */,
+				5290CC192180AB9C00B7A61C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
