@@ -19,7 +19,10 @@ struct NACSData {
         self.NACS_4K = [NACS_Temp_4K_N10KT, NACS_Temp_4K_0KT, NACS_Temp_4K_10KT, NACS_Temp_4K_20KT, NACS_Temp_4K_30KT]
         self.NACS_5K = [NACS_Temp_5K_N10KT, NACS_Temp_5K_0KT, NACS_Temp_5K_10KT, NACS_Temp_5K_20KT, NACS_Temp_5K_30KT]
         self.NACS_6K = [NACS_Temp_6K_N10KT, NACS_Temp_6K_0KT, NACS_Temp_6K_10KT, NACS_Temp_6K_20KT, NACS_Temp_6K_30KT]
+        self.NACS = [NACS_0K,NACS_1K,NACS_2K,NACS_3K,NACS_4K,NACS_5K,NACS_6K]
     }
+    
+    var NACS: [[[Double]]] = []
     
     // MARK: - Take Off Distance Data:
     //Sea Level

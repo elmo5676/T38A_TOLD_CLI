@@ -19,14 +19,10 @@ struct TakeOffDistanceData {
         self.TODist_4K = [TODist_Temp_4K_N10KT, TODist_Temp_4K_0KT, TODist_Temp_4K_10KT, TODist_Temp_4K_20KT, TODist_Temp_4K_30KT]
         self.TODist_5K = [TODist_Temp_5K_N10KT, TODist_Temp_5K_0KT, TODist_Temp_5K_10KT, TODist_Temp_5K_20KT, TODist_Temp_5K_30KT]
         self.TODist_6K = [TODist_Temp_6K_N10KT, TODist_Temp_6K_0KT, TODist_Temp_6K_10KT, TODist_Temp_6K_20KT, TODist_Temp_6K_30KT]
-        self.TODistAll = [TODist_0K,TODist_1K,TODist_2K,TODist_3K,TODist_4K,TODist_5K,TODist_6K]
+        self.TODist = [TODist_0K,TODist_1K,TODist_2K,TODist_3K,TODist_4K,TODist_5K,TODist_6K]
     }
     
-    let tempInput: [Double] = [0,5,10,15,20,25,30,35,40,45]
-    let windSpeedInput: [Double] = [-10,0,10,20,30]
-    let altInput: [Double] = [0,1,2,3,4,5,6]
-    
-    var TODistAll: [[[Double]]] = []
+    var TODist: [[[Double]]] = []
     
     // MARK: - Take Off Distance Data:
     //Sea Level

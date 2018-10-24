@@ -14,32 +14,25 @@ import XCTest
 
 class CFLTest: XCTestCase {
     let cfl = CFLData()
-    var tempInput: [Double] = []
-    var windSpeedInput: [Double] = []
-    var altInput: [Double] = []
-    let tempInputTest: [Double] = [2.5,7.5,12.5,17.2,22.5,27.5,32.5,37.5,42.5]
-    let windSpeedInputTest: [Double] = [-5.0,5.0,15.0,25.0]
-    let altInputTest: [Double] = [0.5,1.5,2.5,3.5,4.5,5.5]
+    var tempInput = Inputs().tempInput
+    var windSpeedInput = Inputs().windSpeedInput
+    var altInput = Inputs().altInput
+    let tempInputTest = Inputs().tempInputTest
+    let windSpeedInputTest = Inputs().windSpeedInputTest
+    let altInputTest = Inputs().altInputTest
     
     override func setUp() {
-        tempInput = cfl.tempInput
-        windSpeedInput = cfl.windSpeedInput
-        altInput = cfl.altInput
+//        tempInput = cfl.tempInput
+//        windSpeedInput = cfl.windSpeedInput
+//        altInput = cfl.altInput
         
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
     func testTODistance_0Ft_N10KtsWindSpeed() {
-        let gonkCFL = GonkTOData(alt_0K: cfl.CFL_0K,
-                                             alt_1K: cfl.CFL_1K,
-                                             alt_2K: cfl.CFL_2K,
-                                             alt_3K: cfl.CFL_3K,
-                                             alt_4K: cfl.CFL_4K,
-                                             alt_5K: cfl.CFL_5K,
-                                             alt_6K: cfl.CFL_6K)
+        let gonkCFL = GonkTOData(TOData: cfl.CFL)
         
         var result = 0.0
         let outPutArray = cfl.CFL_Temp_0K_N10KT
@@ -53,13 +46,7 @@ class CFLTest: XCTestCase {
         print(resultArray)
     }
     func testTODistance_0Ft() {
-        let gonkCFL = GonkTOData(alt_0K: cfl.CFL_0K,
-                                 alt_1K: cfl.CFL_1K,
-                                 alt_2K: cfl.CFL_2K,
-                                 alt_3K: cfl.CFL_3K,
-                                 alt_4K: cfl.CFL_4K,
-                                 alt_5K: cfl.CFL_5K,
-                                 alt_6K: cfl.CFL_6K)
+        let gonkCFL = GonkTOData(TOData: cfl.CFL)
         for j in 0...4 {
             let windSpdArray = cfl.CFL_0K[j]
             var result = 0.0
@@ -76,13 +63,7 @@ class CFLTest: XCTestCase {
     
     
     func testTODistanceInterpolated_0Ft() {
-        let gonkCFL = GonkTOData(alt_0K: cfl.CFL_0K,
-                                 alt_1K: cfl.CFL_1K,
-                                 alt_2K: cfl.CFL_2K,
-                                 alt_3K: cfl.CFL_3K,
-                                 alt_4K: cfl.CFL_4K,
-                                 alt_5K: cfl.CFL_5K,
-                                 alt_6K: cfl.CFL_6K)
+        let gonkCFL = GonkTOData(TOData: cfl.CFL)
         for j in 0...3 {
             let windSpdArray = cfl.CFL_0K[j]
             let nextWindSpdArray = cfl.CFL_0K[j + 1]
@@ -99,13 +80,7 @@ class CFLTest: XCTestCase {
     
     
     func testTODistanceInterpolated_0Ft_N10KtsWindSpeed() {
-        let gonkCFL = GonkTOData(alt_0K: cfl.CFL_0K,
-                                 alt_1K: cfl.CFL_1K,
-                                 alt_2K: cfl.CFL_2K,
-                                 alt_3K: cfl.CFL_3K,
-                                 alt_4K: cfl.CFL_4K,
-                                 alt_5K: cfl.CFL_5K,
-                                 alt_6K: cfl.CFL_6K)
+        let gonkCFL = GonkTOData(TOData: cfl.CFL)
         var result = 0.0
         let outPutArray = cfl.CFL_Temp_0K_N10KT
         var resultArray: [Double] = []

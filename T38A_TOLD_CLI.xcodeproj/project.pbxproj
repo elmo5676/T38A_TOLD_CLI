@@ -56,6 +56,9 @@
 		5290CC602180AD3900B7A61C /* TakeOffDistanceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC2B2180ACE100B7A61C /* TakeOffDistanceData.swift */; };
 		5290CC612180AD3C00B7A61C /* TOLDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC222180ACE000B7A61C /* TOLDError.swift */; };
 		5290CC622180AD3F00B7A61C /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC282180ACE100B7A61C /* Wind.swift */; };
+		5290CC6B2180BC4C00B7A61C /* GonkSECG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC6A2180BC4C00B7A61C /* GonkSECG.swift */; };
+		5290CC6D2180BD0200B7A61C /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC6C2180BD0200B7A61C /* Inputs.swift */; };
+		5290CC6E2180BD0200B7A61C /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC6C2180BD0200B7A61C /* Inputs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +103,8 @@
 		5290CC302180ACE100B7A61C /* Double+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		5290CC482180ACEE00B7A61C /* CFLTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFLTest.swift; sourceTree = "<group>"; };
 		5290CC492180ACEE00B7A61C /* TODistanceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TODistanceTest.swift; sourceTree = "<group>"; };
+		5290CC6A2180BC4C00B7A61C /* GonkSECG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GonkSECG.swift; sourceTree = "<group>"; };
+		5290CC6C2180BD0200B7A61C /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,12 +147,9 @@
 			isa = PBXGroup;
 			children = (
 				5290CC072180AB7000B7A61C /* main.swift */,
-				5290CC632180AE2400B7A61C /* Scrap */,
-				5290CC642180AE3300B7A61C /* SECG */,
-				5290CC652180AE5C00B7A61C /* TO */,
+				5290CC692180B89100B7A61C /* TOLD */,
 				5290CC662180AE8E00B7A61C /* Utilities */,
-				5290CC672180AEA800B7A61C /* DS */,
-				5290CC682180AEB400B7A61C /* RS */,
+				5290CC632180AE2400B7A61C /* Scrap */,
 			);
 			path = T38A_TOLD_CLI;
 			sourceTree = "<group>";
@@ -175,6 +177,7 @@
 		5290CC642180AE3300B7A61C /* SECG */ = {
 			isa = PBXGroup;
 			children = (
+				5290CC6A2180BC4C00B7A61C /* GonkSECG.swift */,
 				5290CC212180ACE000B7A61C /* SECG190KiasFtNmData.swift */,
 				5290CC262180ACE000B7A61C /* SECG190KiasNMIData.swift */,
 				5290CC202180ACE000B7A61C /* SECG200ftNmGDKiasData.swift */,
@@ -225,6 +228,18 @@
 				5290CC232180ACE000B7A61C /* RS_EFData.swift */,
 			);
 			path = RS;
+			sourceTree = "<group>";
+		};
+		5290CC692180B89100B7A61C /* TOLD */ = {
+			isa = PBXGroup;
+			children = (
+				5290CC6C2180BD0200B7A61C /* Inputs.swift */,
+				5290CC652180AE5C00B7A61C /* TO */,
+				5290CC642180AE3300B7A61C /* SECG */,
+				5290CC672180AEA800B7A61C /* DS */,
+				5290CC682180AEB400B7A61C /* RS */,
+			);
+			path = TOLD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,11 +348,13 @@
 				5290CC452180ACE100B7A61C /* CEFSData.swift in Sources */,
 				5290CC312180ACE100B7A61C /* GonkCleaned.swift in Sources */,
 				5290CC3B2180ACE100B7A61C /* CFLData.swift in Sources */,
+				5290CC6D2180BD0200B7A61C /* Inputs.swift in Sources */,
 				5290CC422180ACE100B7A61C /* TakeOffDistanceData.swift in Sources */,
 				5290CC322180ACE100B7A61C /* Corrections.swift in Sources */,
 				5290CC332180ACE100B7A61C /* GonkRS.swift in Sources */,
 				5290CC3A2180ACE100B7A61C /* RS_EFData.swift in Sources */,
 				5290CC462180ACE100B7A61C /* ArraySolver.swift in Sources */,
+				5290CC6B2180BC4C00B7A61C /* GonkSECG.swift in Sources */,
 				5290CC392180ACE100B7A61C /* TOLDError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +381,7 @@
 				5290CC502180AD1000B7A61C /* DensityRatio.swift in Sources */,
 				5290CC602180AD3900B7A61C /* TakeOffDistanceData.swift in Sources */,
 				5290CC552180AD1D00B7A61C /* GonkDS.swift in Sources */,
+				5290CC6E2180BD0200B7A61C /* Inputs.swift in Sources */,
 				5290CC572180AD2200B7A61C /* GonkTOData.swift in Sources */,
 				5290CC4A2180ACEE00B7A61C /* CFLTest.swift in Sources */,
 				5290CC5E2180AD3400B7A61C /* SECG200FtNmGDNMIData.swift in Sources */,

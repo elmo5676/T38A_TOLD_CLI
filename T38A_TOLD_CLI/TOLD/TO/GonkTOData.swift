@@ -11,6 +11,17 @@ import Foundation
 
 struct GonkTOData {
     
+    public init(TOData: [[[Double]]]) {
+        self.TOData = TOData
+        self.alt_0K = TOData[0]
+        self.alt_1K = TOData[1]
+        self.alt_2K = TOData[2]
+        self.alt_3K = TOData[3]
+        self.alt_4K = TOData[4]
+        self.alt_5K = TOData[5]
+        self.alt_6K = TOData[6]
+    }
+    
     private var alt_0K: [[Double]]
     private var alt_1K: [[Double]]
     private var alt_2K: [[Double]]
@@ -18,27 +29,11 @@ struct GonkTOData {
     private var alt_4K: [[Double]]
     private var alt_5K: [[Double]]
     private var alt_6K: [[Double]]
+    private var TOData: [[[Double]]]
     
-    public init(alt_0K: [[Double]],
-                alt_1K: [[Double]],
-                alt_2K: [[Double]],
-                alt_3K: [[Double]],
-                alt_4K: [[Double]],
-                alt_5K: [[Double]],
-                alt_6K: [[Double]]) {
-        self.alt_0K = alt_0K
-        self.alt_1K = alt_1K
-        self.alt_2K = alt_2K
-        self.alt_3K = alt_3K
-        self.alt_4K = alt_4K
-        self.alt_5K = alt_5K
-        self.alt_6K = alt_6K
-    }
+    let errorArray: [Double] = Inputs().errorArray
+    let windSpeedInput: [Double] = Inputs().windSpeedInput
     
-    let errorArray: [Double] = [-5000,-5000,-5000,-5000,-5000,-5000,-5000,-5000,-5000,-5000]
-    let tempInput: [Double] = [0,5,10,15,20,25,30,35,40,45]
-    let windSpeedInput: [Double] = [-10,0,10,20,30]
-    let altInput: [Double] = [0,1,2,3,4,5,6]
     
     private func errorArrayArray() -> [[Double]] {
         return [errorArray,errorArray,errorArray,errorArray,errorArray,errorArray,errorArray,errorArray,errorArray,errorArray]

@@ -19,11 +19,10 @@ struct CEFSData {
         self.CEFS_4K = [CEFS_Temp_4K_N10KT, CEFS_Temp_4K_0KT, CEFS_Temp_4K_10KT, CEFS_Temp_4K_20KT, CEFS_Temp_4K_30KT]
         self.CEFS_5K = [CEFS_Temp_5K_N10KT, CEFS_Temp_5K_0KT, CEFS_Temp_5K_10KT, CEFS_Temp_5K_20KT, CEFS_Temp_5K_30KT]
         self.CEFS_6K = [CEFS_Temp_6K_N10KT, CEFS_Temp_6K_0KT, CEFS_Temp_6K_10KT, CEFS_Temp_6K_20KT, CEFS_Temp_6K_30KT]
+        self.CEFS = [CEFS_0K,CEFS_1K,CEFS_2K,CEFS_3K,CEFS_4K,CEFS_5K,CEFS_6K]
     }
     
-    let tempInput: [Double] = [0,5,10,15,20,25,30,35,40,45]
-    let windSpeedInput: [Double] = [-10,0,10,20,30]
-    let altInput: [Double] = [0,1,2,3,4,5,6]
+    var CEFS: [[[Double]]] = []
     
     // MARK: - Take Off Distance Data:
     //Sea Level

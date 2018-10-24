@@ -18,11 +18,11 @@ struct CFLData {
         self.CFL_4K = [CFL_Temp_4K_N10KT, CFL_Temp_4K_0KT, CFL_Temp_4K_10KT, CFL_Temp_4K_20KT, CFL_Temp_4K_30KT]
         self.CFL_5K = [CFL_Temp_5K_N10KT, CFL_Temp_5K_0KT, CFL_Temp_5K_10KT, CFL_Temp_5K_20KT, CFL_Temp_5K_30KT]
         self.CFL_6K = [CFL_Temp_6K_N10KT, CFL_Temp_6K_0KT, CFL_Temp_6K_10KT, CFL_Temp_6K_20KT, CFL_Temp_6K_30KT]
+        self.CFL = [CFL_0K,CFL_1K,CFL_2K,CFL_3K,CFL_4K,CFL_5K,CFL_6K]
     }
+
     
-    let tempInput: [Double] = [0,5,10,15,20,25,30,35,40,45]
-    let windSpeedInput: [Double] = [-10,0,10,20,30]
-    let altInput: [Double] = [0,1,2,3,4,5,6]
+    var CFL: [[[Double]]] = []
     
     // MARK: - CFL Data:
     //Sea Level

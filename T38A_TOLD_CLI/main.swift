@@ -10,15 +10,16 @@ import Foundation
 
 let c = Corrections()
 let w = WindCalc()
+let ia = Inputs()
 
-let tempInput: [Double] = [0,5,10,15,20,25,30,35,40,45]
-let tempInput2: [Double] = [0.5,5.5,10.5,15.5,20.5,25.5,30.5,35.5,40.5]
+let tempInput = ia.tempInput
+let tempInputTest = ia.tempInputTest
 
-let windSpeedInput: [Double] = [-10,0,10,20,30]
-let windSpeedInput2: [Double] = [-9.5,0.5,10.5,20.5,30.5]
+let windSpeedInput = ia.windSpeedInput
+let windSpeedInputTest = ia.windSpeedInputTest
 
-let altInput: [Double] = [0,1,2,3,4,5,6]
-let altInput2: [Double] = [0.5,1.5,2.5,3.5,4.5,5.5]
+let altInput = ia.altInput
+let altInputTest = ia.altInputTest
 
 
 
@@ -27,36 +28,13 @@ let altInput2: [Double] = [0.5,1.5,2.5,3.5,4.5,5.5]
 let td = TakeOffDistanceData()
 let cefs = CEFSData()
 let cfl = CFLData()
-let corrections = Corrections()
 let ds = DSData()
-
-print(ds.dsDataAll)
-
+let corrections = Corrections()
 
 
-let gonkTakeOffDistance = GonkTOData(alt_0K: td.TODist_0K,
-                                     alt_1K: td.TODist_1K,
-                                     alt_2K: td.TODist_2K,
-                                     alt_3K: td.TODist_3K,
-                                     alt_4K: td.TODist_4K,
-                                     alt_5K: td.TODist_5K,
-                                     alt_6K: td.TODist_6K)
-
-let gonkCEFS = GonkTOData(alt_0K: cefs.CEFS_0K,
-                          alt_1K: cefs.CEFS_1K,
-                          alt_2K: cefs.CEFS_2K,
-                          alt_3K: cefs.CEFS_3K,
-                          alt_4K: cefs.CEFS_4K,
-                          alt_5K: cefs.CEFS_5K,
-                          alt_6K: cefs.CEFS_6K)
-
-let gonkCFL = GonkTOData(alt_0K: cfl.CFL_0K,
-                         alt_1K: cfl.CFL_1K,
-                         alt_2K: cfl.CFL_2K,
-                         alt_3K: cfl.CFL_3K,
-                         alt_4K: cfl.CFL_4K,
-                         alt_5K: cfl.CFL_5K,
-                         alt_6K: cfl.CFL_6K)
+let gonkTakeOffDistance = GonkTOData(TOData: td.TODist)
+let gonkCEFS = GonkTOData(TOData: cefs.CEFS)
+let gonkCFL = GonkTOData(TOData: cfl.CFL)
 
 
 
