@@ -34,10 +34,10 @@ struct SECG190KiasFtNmData {
         
         self.SECG190Kias_40 = [SECG190Kias_40_0,SECG190Kias_40_1,SECG190Kias_40_2,SECG190Kias_40_3,SECG190Kias_40_4,SECG190Kias_40_5,SECG190Kias_40_6]
         
-        self.SECG190Kias = [SECG190Kias_N10, SECG190Kias_N5,SECG190Kias_0,SECG190Kias_5,SECG190Kias_10,SECG190Kias_15,SECG190Kias_20,SECG190Kias_25,SECG190Kias_30,SECG190Kias_35,SECG190Kias_40]
+        self.SECG190KIAS = [SECG190Kias_N10, SECG190Kias_N5,SECG190Kias_0,SECG190Kias_5,SECG190Kias_10,SECG190Kias_15,SECG190Kias_20,SECG190Kias_25,SECG190Kias_30,SECG190Kias_35,SECG190Kias_40]
     }
     
-    public var SECG190Kias: [[[Double]]] = []
+    public var SECG190KIAS: [[[Double]]] = []
     
     private var SECG190Kias_N10: [[Double]] = []
     private var SECG190Kias_N5: [[Double]] = []

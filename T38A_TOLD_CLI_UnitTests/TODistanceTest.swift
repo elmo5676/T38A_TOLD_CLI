@@ -28,7 +28,8 @@ class TODistanceTest: XCTestCase {
     func testTODistance_0Ft_N10KtsWindSpeed() {
         let gonkTakeOffDistance = GonkTOData(TOData: td.TODist)
         var result = 0.0
-        let outPutArray = td.TODist_Temp_0K_N10KT
+//        let outPutArray = td.TODist_Temp_0K_N10KT
+        let outPutArray = td.TODist[0][0]
         var resultArray: [Double] = []
         for i in 0...9 {
             let temp = tempInput[i]
@@ -43,7 +44,8 @@ class TODistanceTest: XCTestCase {
     func testTODistance_0Ft() {
         let gonkTakeOffDistance = GonkTOData(TOData: td.TODist)
         for j in 0...4 {
-            let windSpdArray = td.TODist_0K[j]
+//            let windSpdArray = td.TODist_0K[j]
+            let windSpdArray = td.TODist[0][j]
             var result = 0.0
             var resultArray: [Double] = []
             for i in 0...9 {
@@ -63,7 +65,8 @@ class TODistanceTest: XCTestCase {
     func testTODistanceInterpolated_0Ft_N10KtsWindSpeed() {
         let gonkTakeOffDistance = GonkTOData(TOData: td.TODist)
         var result = 0.0
-        let outPutArray = td.TODist_Temp_0K_N10KT
+//        let outPutArray = td.TODist_Temp_0K_N10KT
+        let outPutArray = td.TODist[0][0]
         var resultArray: [Double] = []
         for i in 0...8 {
             let temp = tempInputTest[i]
@@ -78,8 +81,10 @@ class TODistanceTest: XCTestCase {
     func testTODistanceInterpolated_0Ft() {
         let gonkTakeOffDistance = GonkTOData(TOData: td.TODist)
         for j in 0...3 {
-            let windSpdArray = td.TODist_0K[j]
-            let nextWindSpdArray = td.TODist_0K[j + 1]
+//            let windSpdArray = td.TODist_0K[j]
+            let windSpdArray = td.TODist[0][j]
+//            let nextWindSpdArray = td.TODist_0K[j + 1]
+            let nextWindSpdArray = td.TODist[0][j + 1]
             var result = 0.0
             var resultArray: [Double] = []
             for i in 0...8 {

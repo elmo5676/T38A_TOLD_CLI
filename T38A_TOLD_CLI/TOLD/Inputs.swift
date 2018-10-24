@@ -23,10 +23,18 @@ struct Inputs {
     public let windSpeedInputTest: [Double] = [-5.0,5.0,15.0,25.0]
     public let altInputTest: [Double] = [0.5,1.5,2.5,3.5,4.5,5.5]
     
-    // MARK: - Single Engine Climb Gradiant [SECG] input arrays
     
+    // MARK: - Single Engine Climb Gradiant [SECG] input arrays
+    public let SECGweightInput: [Double] = [11000, 12000, 12500, 13000, 13500]
+    public let SECGpressureAltInput: [Double] = [0, 1, 2, 3, 4, 5, 6]
+    public let SECGTempInput: [Double] = [-10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
+    //Interpolated input
+    public let SECGweightInputTest: [Double] = [11500, 12250, 12750, 13250]
+    public let SECGpressureAltInputTest: [Double] = [0.5, 1.5, 2.5, 3.5, 4.5, 5.5]
+    public let SECGTempInputTest: [Double] = [-7.5, -2.5, 2.5, 7.5, 12.5, 17.5, 22.5, 27.5, 32.5, 37.5]
     
     // MARK: - Decision Speed [DS] input arrays
+    public let DSwindSpeedInput: [Double] = [-10,0,10,20,30]
     
     
     // MARK: - Refusal Speed [RS] input arrays
