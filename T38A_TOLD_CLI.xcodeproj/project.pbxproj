@@ -214,8 +214,8 @@
 		5290CC672180AEA800B7A61C /* DS */ = {
 			isa = PBXGroup;
 			children = (
-				5290CC1F2180ACE000B7A61C /* DSData.swift */,
 				5290CC272180ACE100B7A61C /* GonkDS.swift */,
+				5290CC1F2180ACE000B7A61C /* DSData.swift */,
 			);
 			path = DS;
 			sourceTree = "<group>";
