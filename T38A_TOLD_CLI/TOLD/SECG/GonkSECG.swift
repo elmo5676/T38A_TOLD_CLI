@@ -84,7 +84,7 @@ struct GonkSECG {
     }
     
     // MARK: - 1st Dimension
-    func weightDimension(weight: Double, weightArray: [Double]) -> Double {
+    private func weightDimension(weight: Double, weightArray: [Double]) -> Double {
         var result = 0.0
         var X1 = 0.0
         var X2 = 0.0
@@ -114,7 +114,7 @@ struct GonkSECG {
     }
     
     // MARK: - 2nd Dimension
-    func altDimension(weight: Double, alt: Double, tempC: Double) -> Double {
+    private func altDimension(weight: Double, alt: Double, tempC: Double) -> Double {
         var result = 0.0
         var X1 = 0.0
         var X2 = 0.0
@@ -142,7 +142,6 @@ struct GonkSECG {
     
     // MARK: - 3rd Dimension
     public func secgData(weight: Double, alt: Double, tempC: Double) -> Double {
-//    SECGTempInput: [Double] = [-10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
         var result = 0.0
         var X1 = 0.0
         var X2 = 0.0

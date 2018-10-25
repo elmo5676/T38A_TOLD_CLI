@@ -55,15 +55,15 @@ let gonkTakeOffDistance = GonkTOData(TOData: td.TODist)
 let gonkCEFS = GonkTOData(TOData: cefs.CEFS)
 let gonkCFL = GonkTOData(TOData: cfl.CFL)
 
-for t in SECGTempInputTest {
-    for pa in SECGpressureAltInputTest {
-        for w in SECGweightInputTest {
-            let value = gonkSECG.secgData(weight: w, alt: pa, tempC: t).numberOfDecimalPlaces(3)
-            print(value)
-        }
-        print("****************")
-    }
-}
+//for t in SECGTempInputTest {
+//    for pa in SECGpressureAltInputTest {
+//        for w in SECGweightInputTest {
+//            let value = gonkSECG.secgData(weight: w, alt: pa, tempC: t).numberOfDecimalPlaces(3)
+//            print(value)
+//        }
+//        print("****************")
+//    }
+//}
 
 
 
@@ -75,16 +75,16 @@ for t in SECGTempInputTest {
 
 
 
-//for weight in SECGweightInput {
-//    print("***********")
-//    for a in SECGpressureAltInput {
-//        for i in -10...40 {
-//            let j = Double(i)
-//            let value = gonkSECG.takeOffData(weight: weight, alt: a, tempC: j)
-//            //            let value = gonkCEFS.takeOffData(tempC: temp, windSpeed: ws, alt: j)
-//            //            let value = gonkCFL.takeOffData(tempC: temp, windSpeed: ws, alt: j)
-//            print("Weight:\(weight) || Alt:\(a) || Temp:\(j) =  \(value)")
-//        }}}
+for w in SECGweightInput {
+    for a in SECGpressureAltInputTest {
+        print("***********")
+        for i in -10...40 {
+            let j = Double(i)
+            let value = gonkSECG.secgData(weight: w, alt: a, tempC: j)
+            //            let value = gonkCEFS.takeOffData(tempC: temp, windSpeed: ws, alt: j)
+            //            let value = gonkCFL.takeOffData(tempC: temp, windSpeed: ws, alt: j)
+            print("Weight:\(w) || Alt:\(a) || Temp:\(j) =  \(value.numberOfDecimalPlaces(2))")
+        }}}
 
 
 

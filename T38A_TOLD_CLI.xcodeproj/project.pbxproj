@@ -63,6 +63,7 @@
 		5290CC712181073800B7A61C /* GonkScrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC6F2181073800B7A61C /* GonkScrap.swift */; };
 		52BC36762181173F003B8186 /* TemplateGonk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC36752181173F003B8186 /* TemplateGonk.swift */; };
 		52BC36772181173F003B8186 /* TemplateGonk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC36752181173F003B8186 /* TemplateGonk.swift */; };
+		52C798082181E2D300BBB7B1 /* CEFSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C798072181E2D300BBB7B1 /* CEFSTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,6 +112,7 @@
 		5290CC6C2180BD0200B7A61C /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
 		5290CC6F2181073800B7A61C /* GonkScrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GonkScrap.swift; sourceTree = "<group>"; };
 		52BC36752181173F003B8186 /* TemplateGonk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateGonk.swift; sourceTree = "<group>"; };
+		52C798072181E2D300BBB7B1 /* CEFSTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEFSTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52743DA42182237F0085042C /* TOTests */ = {
+			isa = PBXGroup;
+			children = (
+				5290CC492180ACEE00B7A61C /* TODistanceTest.swift */,
+				5290CC482180ACEE00B7A61C /* CFLTest.swift */,
+				52C798072181E2D300BBB7B1 /* CEFSTest.swift */,
+			);
+			path = TOTests;
+			sourceTree = "<group>";
+		};
 		5290CBFB2180AB7000B7A61C = {
 			isa = PBXGroup;
 			children = (
@@ -163,9 +175,8 @@
 		5290CC132180AB9C00B7A61C /* T38A_TOLD_CLI_UnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				5290CC482180ACEE00B7A61C /* CFLTest.swift */,
-				5290CC492180ACEE00B7A61C /* TODistanceTest.swift */,
 				5290CC162180AB9C00B7A61C /* Info.plist */,
+				52743DA42182237F0085042C /* TOTests */,
 			);
 			path = T38A_TOLD_CLI_UnitTests;
 			sourceTree = "<group>";
@@ -197,10 +208,10 @@
 			isa = PBXGroup;
 			children = (
 				5290CC1D2180ACE000B7A61C /* GonkTOData.swift */,
-				5290CC2E2180ACE100B7A61C /* CEFSData.swift */,
-				5290CC242180ACE000B7A61C /* CFLData.swift */,
 				5290CC1E2180ACE000B7A61C /* NACSData.swift */,
 				5290CC2A2180ACE100B7A61C /* SETOSData.swift */,
+				5290CC2E2180ACE100B7A61C /* CEFSData.swift */,
+				5290CC242180ACE000B7A61C /* CFLData.swift */,
 				5290CC2B2180ACE100B7A61C /* TakeOffDistanceData.swift */,
 			);
 			path = TO;
@@ -243,8 +254,8 @@
 				5290CC6C2180BD0200B7A61C /* Inputs.swift */,
 				5290CC652180AE5C00B7A61C /* TO */,
 				5290CC642180AE3300B7A61C /* SECG */,
-				5290CC672180AEA800B7A61C /* DS */,
 				5290CC682180AEB400B7A61C /* RS */,
+				5290CC672180AEA800B7A61C /* DS */,
 				52BC36752181173F003B8186 /* TemplateGonk.swift */,
 			);
 			path = TOLD;
@@ -377,6 +388,7 @@
 				5290CC4F2180AD0D00B7A61C /* Corrections.swift in Sources */,
 				5290CC592180AD2700B7A61C /* RS_BEOData.swift in Sources */,
 				5290CC5D2180AD3100B7A61C /* SECG200ftNmGDKiasData.swift in Sources */,
+				52C798082181E2D300BBB7B1 /* CEFSTest.swift in Sources */,
 				5290CC522180AD1500B7A61C /* DS_Data.swift in Sources */,
 				5290CC5F2180AD3700B7A61C /* SETOSData.swift in Sources */,
 				5290CC542180AD1A00B7A61C /* GonkCleaned.swift in Sources */,
