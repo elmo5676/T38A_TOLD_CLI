@@ -38,20 +38,11 @@ struct CFL_TO {
         for a in 0...(altInput.count - 1) {
             for w in 0...(weightInput.count - 1) {
                 for t in tempCInput {
-                    var toDistValue = TO(tempC: t,
+                    let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).returnValue()
-                    data[a][w].append(toDistValue[8])
-                }}
-            print("***************************************************")
-            print(altInput[a])
-            print(data[a])
-            
-        }}
-    
-    
-    
-    
+                                         alt: altInput[a]).cfl()
+                    data[a][w].append(value)
+        }}}}
     
     //0ft
     private var CFL_TO_11000Lbs_0K: [Double] = []

@@ -38,10 +38,11 @@ struct Rotation_TO {
         for a in 0...(altInput.count - 1) {
             for w in 0...(weightInput.count - 1) {
                 for t in tempCInput {
-                    var toDistValue = TO(tempC: t,
+                    let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).returnValue()
-                    data[a][w].append(toDistValue[0])
+                                         alt: altInput[a]).rotation()  //.returnValue()
+//                    data[a][w].append(value[0])
+                    data[a][w].append(value)
                 }}
                         print("***************************************************")
                         print(altInput[a])

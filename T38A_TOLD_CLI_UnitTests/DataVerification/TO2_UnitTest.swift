@@ -17,6 +17,7 @@ class TO2_UnitTest: XCTestCase {
     //data[alt][wind][weight][temp]
 
     func testTODistance_TO2(){
+        let testValueData = TODistance_TO2().data
         var weightDataPoints: [Double] = []
         var weightTestReturn: [Double] = []
         var windDataPoints: [[Double]] = []
@@ -32,8 +33,8 @@ class TO2_UnitTest: XCTestCase {
                         let value = TO2(tempC: tempCInput[t],
                                         weight: weightInput[wt],
                                         wind: windInput[wd],
-                                        alt: altInput[a]).returnValue()[0]
-                        let testValue = TODistance_TO2().data[a][wd][wt][t]
+                                        alt: altInput[a]).toDistance
+                        let testValue = testValueData[a][wd][wt][t]
                         weightDataPoints.append(value)
                         weightTestReturn.append(testValue)
                     }
@@ -51,6 +52,7 @@ class TO2_UnitTest: XCTestCase {
     }
     
     func testDist50Ft_TO2(){
+        let testValueData = DistTo50Ft_TO2().data
         var weightDataPoints: [Double] = []
         var weightTestReturn: [Double] = []
         var windDataPoints: [[Double]] = []
@@ -66,8 +68,8 @@ class TO2_UnitTest: XCTestCase {
                         let value = TO2(tempC: tempCInput[t],
                                         weight: weightInput[wt],
                                         wind: windInput[wd],
-                                        alt: altInput[a]).returnValue()[1]
-                        let testValue = DistTo50Ft_TO2().data[a][wd][wt][t]
+                                        alt: altInput[a]).distTo50Ft
+                        let testValue = testValueData[a][wd][wt][t]
                         weightDataPoints.append(value)
                         weightTestReturn.append(testValue)
                     }

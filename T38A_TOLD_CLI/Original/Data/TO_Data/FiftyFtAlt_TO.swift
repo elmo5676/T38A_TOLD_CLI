@@ -37,16 +37,11 @@ struct FiftyFtAlt_TO {
         for a in 0...(altInput.count - 1) {
             for w in 0...(weightInput.count - 1) {
                 for t in tempCInput {
-                    var toDistValue = TO(tempC: t,
+                    let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).returnValue()
-                    data[a][w].append(toDistValue[2])
-                }}
-            print("***************************************************")
-            print(altInput[a])
-            print(data[a])
-            
-        }}
+                                         alt: altInput[a]).fiftyFtAlt()
+                    data[a][w].append(value)
+        }}}}
     
     
     
