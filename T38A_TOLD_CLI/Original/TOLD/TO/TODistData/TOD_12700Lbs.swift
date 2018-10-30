@@ -1,0 +1,141 @@
+//
+//  TOD_12700Lbs.swift
+//  T38A_TOLD_CLI
+//
+//  Created by Matthew Elmore on 10/27/18.
+//  Copyright © 2018 Matthew Elmore. All rights reserved.
+//
+
+import Foundation
+
+
+struct TOD_12700Lbs {
+    init(){
+        self.TOD_12700Lbs_0K = [TOD_12700Lbs_0K_N15C, TOD_12700Lbs_0K_N10C, TOD_12700Lbs_0K_N5C,TOD_12700Lbs_0K_0C,TOD_12700Lbs_0K_5C,TOD_12700Lbs_0K_10C,TOD_12700Lbs_0K_15C,TOD_12700Lbs_0K_20C,TOD_12700Lbs_0K_25C,TOD_12700Lbs_0K_30C,TOD_12700Lbs_0K_35C,TOD_12700Lbs_0K_40C,TOD_12700Lbs_0K_45C]
+        self.TOD_12700Lbs_1K = [TOD_12700Lbs_1K_N15C, TOD_12700Lbs_1K_N10C, TOD_12700Lbs_1K_N5C,TOD_12700Lbs_1K_0C,TOD_12700Lbs_1K_5C,TOD_12700Lbs_1K_10C,TOD_12700Lbs_1K_15C,TOD_12700Lbs_1K_20C,TOD_12700Lbs_1K_25C,TOD_12700Lbs_1K_30C,TOD_12700Lbs_1K_35C,TOD_12700Lbs_1K_40C,TOD_12700Lbs_1K_45C]
+        self.TOD_12700Lbs_2K = [TOD_12700Lbs_2K_N15C, TOD_12700Lbs_2K_N10C, TOD_12700Lbs_2K_N5C,TOD_12700Lbs_2K_0C,TOD_12700Lbs_2K_5C,TOD_12700Lbs_2K_10C,TOD_12700Lbs_2K_15C,TOD_12700Lbs_2K_20C,TOD_12700Lbs_2K_25C,TOD_12700Lbs_2K_30C,TOD_12700Lbs_2K_35C,TOD_12700Lbs_2K_40C,TOD_12700Lbs_2K_45C]
+        self.TOD_12700Lbs_3K = [TOD_12700Lbs_3K_N15C, TOD_12700Lbs_3K_N10C, TOD_12700Lbs_3K_N5C,TOD_12700Lbs_3K_0C,TOD_12700Lbs_3K_5C,TOD_12700Lbs_3K_10C,TOD_12700Lbs_3K_15C,TOD_12700Lbs_3K_20C,TOD_12700Lbs_3K_25C,TOD_12700Lbs_3K_30C,TOD_12700Lbs_3K_35C,TOD_12700Lbs_3K_40C,TOD_12700Lbs_3K_45C]
+        self.TOD_12700Lbs_4K = [TOD_12700Lbs_4K_N15C, TOD_12700Lbs_4K_N10C, TOD_12700Lbs_4K_N5C,TOD_12700Lbs_4K_0C,TOD_12700Lbs_4K_5C,TOD_12700Lbs_4K_10C,TOD_12700Lbs_4K_15C,TOD_12700Lbs_4K_20C,TOD_12700Lbs_4K_25C,TOD_12700Lbs_4K_30C,TOD_12700Lbs_4K_35C,TOD_12700Lbs_4K_40C,TOD_12700Lbs_4K_45C]
+        self.TOD_12700Lbs_5K = [TOD_12700Lbs_5K_N15C, TOD_12700Lbs_5K_N10C, TOD_12700Lbs_5K_N5C,TOD_12700Lbs_5K_0C,TOD_12700Lbs_5K_5C,TOD_12700Lbs_5K_10C,TOD_12700Lbs_5K_15C,TOD_12700Lbs_5K_20C,TOD_12700Lbs_5K_25C,TOD_12700Lbs_5K_30C,TOD_12700Lbs_5K_35C,TOD_12700Lbs_5K_40C,TOD_12700Lbs_5K_45C]
+        self.TOD_12700Lbs_6K = [TOD_12700Lbs_6K_N15C, TOD_12700Lbs_6K_N10C, TOD_12700Lbs_6K_N5C,TOD_12700Lbs_6K_0C,TOD_12700Lbs_6K_5C,TOD_12700Lbs_6K_10C,TOD_12700Lbs_6K_15C,TOD_12700Lbs_6K_20C,TOD_12700Lbs_6K_25C,TOD_12700Lbs_6K_30C,TOD_12700Lbs_6K_35C,TOD_12700Lbs_6K_40C,TOD_12700Lbs_6K_45C]
+        self.TOD_12700Lbs = [TOD_12700Lbs_0K,TOD_12700Lbs_1K,TOD_12700Lbs_2K,TOD_12700Lbs_3K,TOD_12700Lbs_4K,TOD_12700Lbs_5K,TOD_12700Lbs_6K]
+    }
+    
+    private var TOD_12700Lbs_0K: [[Double]] = []
+    private var TOD_12700Lbs_1K: [[Double]] = []
+    private var TOD_12700Lbs_2K: [[Double]] = []
+    private var TOD_12700Lbs_3K: [[Double]] = []
+    private var TOD_12700Lbs_4K: [[Double]] = []
+    private var TOD_12700Lbs_5K: [[Double]] = []
+    private var TOD_12700Lbs_6K: [[Double]] = []
+    private var TOD_12700Lbs: [[[Double]]] = []
+    
+    
+    
+    //0]
+    private let TOD_12700Lbs_0K_N15C: [Double] = [2.693, 2.349, 2.065, 1.554, 0.955]
+    private let TOD_12700Lbs_0K_N10C: [Double] = [2.793, 2.439, 2.147, 1.624, 1.007]
+    private let TOD_12700Lbs_0K_N5C: [Double] = [2.914, 2.547, 2.247, 1.709, 1.069]
+    private let TOD_12700Lbs_0K_0C: [Double] = [3.038, 2.659, 2.350, 1.797, 1.135]
+    private let TOD_12700Lbs_0K_5C: [Double] = [3.159, 2.768, 2.450, 1.882, 1.198]
+    private let TOD_12700Lbs_0K_10C: [Double] = [3.270, 2.868, 2.543, 1.961, 1.257]
+    private let TOD_12700Lbs_0K_15C: [Double] = [3.371, 2.960, 2.627, 2.033, 1.311]
+    private let TOD_12700Lbs_0K_20C: [Double] = [3.464, 3.045, 2.705, 2.099, 1.360]
+    private let TOD_12700Lbs_0K_25C: [Double] = [3.552, 3.125, 2.780, 2.162, 1.407]
+    private let TOD_12700Lbs_0K_30C: [Double] = [3.640, 3.205, 2.853, 2.224, 1.454]
+    private let TOD_12700Lbs_0K_35C: [Double] = [3.729, 3.286, 2.928, 2.288, 1.502]
+    private let TOD_12700Lbs_0K_40C: [Double] = [3.821, 3.370, 3.006, 2.354, 1.552]
+    private let TOD_12700Lbs_0K_45C: [Double] = [3.913, 3.455, 3.084, 2.421, 1.602]
+    
+    //1]
+    private let TOD_12700Lbs_1K_N15C: [Double] = [2.817, 2.460, 2.167, 1.641, 1.019]
+    private let TOD_12700Lbs_1K_N10C: [Double] = [2.947, 2.577, 2.275, 1.733, 1.087]
+    private let TOD_12700Lbs_1K_N5C: [Double] = [3.091, 2.707, 2.394, 1.834, 1.163]
+    private let TOD_12700Lbs_1K_0C: [Double] = [3.229, 2.831, 2.509, 1.932, 1.235]
+    private let TOD_12700Lbs_1K_5C: [Double] = [3.353, 2.944, 2.613, 2.020, 1.301]
+    private let TOD_12700Lbs_1K_10C: [Double] = [3.465, 3.046, 2.707, 2.100, 1.361]
+    private let TOD_12700Lbs_1K_15C: [Double] = [3.573, 3.144, 2.797, 2.177, 1.418]
+    private let TOD_12700Lbs_1K_20C: [Double] = [3.684, 3.245, 2.890, 2.256, 1.478]
+    private let TOD_12700Lbs_1K_25C: [Double] = [3.810, 3.360, 2.997, 2.346, 1.546]
+    private let TOD_12700Lbs_1K_30C: [Double] = [3.963, 3.501, 3.126, 2.456, 1.629]
+    private let TOD_12700Lbs_1K_35C: [Double] = [4.158, 3.681, 3.292, 2.598, 1.735]
+    private let TOD_12700Lbs_1K_40C: [Double] = [4.418, 3.921, 3.514, 2.786, 1.878]
+    private let TOD_12700Lbs_1K_45C: [Double] = [4.771, 4.250, 3.818, 3.045, 2.074]
+    
+    //2]
+    private let TOD_12700Lbs_2K_N15C: [Double] = [3.015, 2.638, 2.331, 1.780, 1.123]
+    private let TOD_12700Lbs_2K_N10C: [Double] = [3.157, 2.767, 2.449, 1.881, 1.198]
+    private let TOD_12700Lbs_2K_N5C: [Double] = [3.296, 2.892, 2.565, 1.980, 1.271]
+    private let TOD_12700Lbs_2K_0C: [Double] = [3.431, 3.014, 2.678, 2.075, 1.342]
+    private let TOD_12700Lbs_2K_5C: [Double] = [3.560, 3.132, 2.786, 2.167, 1.411]
+    private let TOD_12700Lbs_2K_10C: [Double] = [3.683, 3.245, 2.890, 2.256, 1.478]
+    private let TOD_12700Lbs_2K_15C: [Double] = [3.801, 3.353, 2.989, 2.340, 1.541]
+    private let TOD_12700Lbs_2K_20C: [Double] = [3.915, 3.456, 3.085, 2.422, 1.603]
+    private let TOD_12700Lbs_2K_25C: [Double] = [4.025, 3.558, 3.179, 2.502, 1.663]
+    private let TOD_12700Lbs_2K_30C: [Double] = [4.136, 3.660, 3.273, 2.582, 1.723]
+    private let TOD_12700Lbs_2K_35C: [Double] = [4.251, 3.766, 3.371, 2.665, 1.786]
+    private let TOD_12700Lbs_2K_40C: [Double] = [4.374, 3.880, 3.477, 2.754, 1.854]
+    private let TOD_12700Lbs_2K_45C: [Double] = [4.510, 4.006, 3.593, 2.853, 1.928]
+    
+    //3]
+    private let TOD_12700Lbs_3K_N15C: [Double] = [3.161, 2.770, 2.453, 1.884, 1.200]
+    private let TOD_12700Lbs_3K_N10C: [Double] = [3.354, 2.945, 2.614, 2.021, 1.302]
+    private let TOD_12700Lbs_3K_N5C: [Double] = [3.514, 3.090, 2.747, 2.134, 1.387]
+    private let TOD_12700Lbs_3K_0C: [Double] = [3.657, 3.221, 2.868, 2.237, 1.464]
+    private let TOD_12700Lbs_3K_5C: [Double] = [3.792, 3.344, 2.982, 2.334, 1.536]
+    private let TOD_12700Lbs_3K_10C: [Double] = [3.921, 3.463, 3.091, 2.427, 1.606]
+    private let TOD_12700Lbs_3K_15C: [Double] = [4.045, 3.576, 3.196, 2.516, 1.673]
+    private let TOD_12700Lbs_3K_20C: [Double] = [4.163, 3.685, 3.297, 2.601, 1.738]
+    private let TOD_12700Lbs_3K_25C: [Double] = [4.277, 3.791, 3.394, 2.684, 1.800]
+    private let TOD_12700Lbs_3K_30C: [Double] = [4.387, 3.892, 3.488, 2.764, 1.861]
+    private let TOD_12700Lbs_3K_35C: [Double] = [4.491, 3.989, 3.577, 2.840, 1.918]
+    private let TOD_12700Lbs_3K_40C: [Double] = [4.583, 4.074, 3.655, 2.907, 1.969]
+    private let TOD_12700Lbs_3K_45C: [Double] = [4.646, 4.133, 3.710, 2.953, 2.004]
+    
+    //4]
+    private let TOD_12700Lbs_4K_N15C: [Double] = [3.381, 2.970, 2.636, 2.040, 1.316]
+    private let TOD_12700Lbs_4K_N10C: [Double] = [3.561, 3.133, 2.787, 2.168, 1.412]
+    private let TOD_12700Lbs_4K_N5C: [Double] = [3.742, 3.298, 2.940, 2.298, 1.509]
+    private let TOD_12700Lbs_4K_0C: [Double] = [3.912, 3.454, 3.083, 2.420, 1.601]
+    private let TOD_12700Lbs_4K_5C: [Double] = [4.067, 3.597, 3.215, 2.532, 1.685]
+    private let TOD_12700Lbs_4K_10C: [Double] = [4.207, 3.726, 3.334, 2.633, 1.762]
+    private let TOD_12700Lbs_4K_15C: [Double] = [4.336, 3.845, 3.444, 2.727, 1.832]
+    private let TOD_12700Lbs_4K_20C: [Double] = [4.458, 3.959, 3.549, 2.816, 1.900]
+    private let TOD_12700Lbs_4K_25C: [Double] = [4.580, 4.072, 3.653, 2.905, 1.967]
+    private let TOD_12700Lbs_4K_30C: [Double] = [4.707, 4.189, 3.762, 2.997, 2.038]
+    private let TOD_12700Lbs_4K_35C: [Double] = [4.842, 4.316, 3.879, 3.096, 2.113]
+    private let TOD_12700Lbs_4K_40C: [Double] = [4.990, 4.455, 4.007, 3.206, 2.196]
+    private let TOD_12700Lbs_4K_45C: [Double] = [5.154, 4.609, 4.150, 3.327, 2.289]
+    
+    //5]
+    private let TOD_12700Lbs_5K_N15C: [Double] = [3.593, 3.163, 2.814, 2.191, 1.430]
+    private let TOD_12700Lbs_5K_N10C: [Double] = [3.766, 3.320, 2.960, 2.315, 1.522]
+    private let TOD_12700Lbs_5K_N5C: [Double] = [3.979, 3.516, 3.140, 2.468, 1.638]
+    private let TOD_12700Lbs_5K_0C: [Double] = [4.189, 3.709, 3.319, 2.620, 1.752]
+    private let TOD_12700Lbs_5K_5C: [Double] = [4.378, 3.884, 3.480, 2.757, 1.855]
+    private let TOD_12700Lbs_5K_10C: [Double] = [4.543, 4.037, 3.621, 2.877, 1.947]
+    private let TOD_12700Lbs_5K_15C: [Double] = [4.692, 4.176, 3.749, 2.986, 2.029]
+    private let TOD_12700Lbs_5K_20C: [Double] = [4.835, 4.309, 3.873, 3.091, 2.109]
+    private let TOD_12700Lbs_5K_25C: [Double] = [4.978, 4.443, 3.997, 3.197, 2.189]
+    private let TOD_12700Lbs_5K_30C: [Double] = [5.123, 4.580, 4.123, 3.304, 2.271]
+    private let TOD_12700Lbs_5K_35C: [Double] = [5.262, 4.710, 4.244, 3.407, 2.350]
+    private let TOD_12700Lbs_5K_40C: [Double] = [5.376, 4.819, 4.344, 3.492, 2.415]
+    private let TOD_12700Lbs_5K_45C: [Double] = [5.438, 4.877, 4.398, 3.538, 2.450]
+    
+    //6]
+    private let TOD_12700Lbs_6K_N15C: [Double] = [3.869, 3.414, 3.046, 2.389, 1.578]
+    private let TOD_12700Lbs_6K_N10C: [Double] = [4.052, 3.583, 3.202, 2.521, 1.677]
+    private let TOD_12700Lbs_6K_N5C: [Double] = [4.252, 3.767, 3.372, 2.666, 1.786]
+    private let TOD_12700Lbs_6K_0C: [Double] = [4.443, 3.944, 3.536, 2.805, 1.892]
+    private let TOD_12700Lbs_6K_5C: [Double] = [4.620, 4.109, 3.687, 2.934, 1.989]
+    private let TOD_12700Lbs_6K_10C: [Double] = [4.785, 4.262, 3.829, 3.054, 2.081]
+    private let TOD_12700Lbs_6K_15C: [Double] = [4.941, 4.409, 3.965, 3.170, 2.169]
+    private let TOD_12700Lbs_6K_20C: [Double] = [5.091, 4.549, 4.095, 3.280, 2.253]
+    private let TOD_12700Lbs_6K_25C: [Double] = [5.229, 4.680, 4.216, 3.383, 2.331]
+    private let TOD_12700Lbs_6K_30C: [Double] = [5.349, 4.793, 4.320, 3.472, 2.400]
+    private let TOD_12700Lbs_6K_35C: [Double] = [5.441, 4.880, 4.401, 3.540, 2.452]
+    private let TOD_12700Lbs_6K_40C: [Double] = [5.498, 4.934, 4.451, 3.583, 2.485]
+    private let TOD_12700Lbs_6K_45C: [Double] = [5.526, 4.961, 4.475, 3.604, 2.501]
+    
+    
+}

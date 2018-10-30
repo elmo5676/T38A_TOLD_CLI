@@ -16,14 +16,13 @@ extension Double {
     var metersToNauticalMiles: Double { return self * 0.0005396118248380001 }
     var nauticalMilesToMeters: Double { return self * 1852 }
     var nauticalMilesToFeet: Double { return self * 6076 }
-    
+    var CtoK: Double { return self + 273.15}
     
     func numberOfDecimalPlaces(_ decimalPlaces: Int) -> Double {
         let numberOfDecimalPlaces = String(decimalPlaces)
         let returnDouble = Double("\(String(format: "%.\(numberOfDecimalPlaces)f", self))")
         return returnDouble!
     }
-    
     
 }
 

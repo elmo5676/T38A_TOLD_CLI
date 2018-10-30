@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52600FEF2187546400D30133 /* TODistance_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FEE2187546400D30133 /* TODistance_TO.swift */; };
+		52600FF02187546400D30133 /* TODistance_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FEE2187546400D30133 /* TODistance_TO.swift */; };
+		52600FF32187550500D30133 /* Rotation_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FF22187550500D30133 /* Rotation_TO.swift */; };
+		52600FF42187550500D30133 /* Rotation_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FF22187550500D30133 /* Rotation_TO.swift */; };
+		52600FF62187562000D30133 /* FiftyFtAlt_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FF52187562000D30133 /* FiftyFtAlt_TO.swift */; };
+		52600FF72187562000D30133 /* FiftyFtAlt_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FF52187562000D30133 /* FiftyFtAlt_TO.swift */; };
+		52600FF92187575E00D30133 /* DistTo50Ft_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FF82187575E00D30133 /* DistTo50Ft_TO.swift */; };
+		52600FFA2187575E00D30133 /* DistTo50Ft_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FF82187575E00D30133 /* DistTo50Ft_TO.swift */; };
+		52600FFC2187582800D30133 /* TO2Eng_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FFB2187582800D30133 /* TO2Eng_TO.swift */; };
+		52600FFD2187582800D30133 /* TO2Eng_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FFB2187582800D30133 /* TO2Eng_TO.swift */; };
+		52600FFF218758FD00D30133 /* TO1Eng_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FFE218758FD00D30133 /* TO1Eng_TO.swift */; };
+		52601000218758FD00D30133 /* TO1Eng_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52600FFE218758FD00D30133 /* TO1Eng_TO.swift */; };
+		526010022188270400D30133 /* SECG_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526010012188270400D30133 /* SECG_TO.swift */; };
+		526010032188270400D30133 /* SECG_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526010012188270400D30133 /* SECG_TO.swift */; };
+		526010052188279C00D30133 /* CEFAS_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526010042188279C00D30133 /* CEFAS_TO.swift */; };
+		526010062188279C00D30133 /* CEFAS_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526010042188279C00D30133 /* CEFAS_TO.swift */; };
+		526010082188291000D30133 /* CFL_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526010072188291000D30133 /* CFL_TO.swift */; };
+		526010092188291000D30133 /* CFL_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526010072188291000D30133 /* CFL_TO.swift */; };
+		5260100E21882A2900D30133 /* BL_GRD_Run_SE_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260100D21882A2900D30133 /* BL_GRD_Run_SE_TO.swift */; };
+		5260100F21882A2900D30133 /* BL_GRD_Run_SE_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260100D21882A2900D30133 /* BL_GRD_Run_SE_TO.swift */; };
+		5260101121882B2200D30133 /* TwoHundredFtMn_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260101021882B2200D30133 /* TwoHundredFtMn_TO.swift */; };
+		5260101221882B2200D30133 /* TwoHundredFtMn_TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260101021882B2200D30133 /* TwoHundredFtMn_TO.swift */; };
+		5260101521882F9600D30133 /* TODistance_TO2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260101421882F9600D30133 /* TODistance_TO2.swift */; };
+		5260101621882F9600D30133 /* TODistance_TO2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260101421882F9600D30133 /* TODistance_TO2.swift */; };
+		526010182188C43E00D30133 /* TO2_UnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526010172188C43E00D30133 /* TO2_UnitTest.swift */; };
+		5260101A2188CC5300D30133 /* DistTo50Ft_TO2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526010192188CC5300D30133 /* DistTo50Ft_TO2.swift */; };
+		5260101B2188CC5300D30133 /* DistTo50Ft_TO2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526010192188CC5300D30133 /* DistTo50Ft_TO2.swift */; };
 		5290CC082180AB7000B7A61C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC072180AB7000B7A61C /* main.swift */; };
 		5290CC312180ACE100B7A61C /* GonkCleaned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1A2180ACE000B7A61C /* GonkCleaned.swift */; };
 		5290CC322180ACE100B7A61C /* Corrections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC1B2180ACE000B7A61C /* Corrections.swift */; };
@@ -61,6 +88,38 @@
 		5290CC6E2180BD0200B7A61C /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC6C2180BD0200B7A61C /* Inputs.swift */; };
 		5290CC702181073800B7A61C /* GonkScrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC6F2181073800B7A61C /* GonkScrap.swift */; };
 		5290CC712181073800B7A61C /* GonkScrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290CC6F2181073800B7A61C /* GonkScrap.swift */; };
+		5297118821861C530031F093 /* SEROCGU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297117E21861C520031F093 /* SEROCGU.swift */; };
+		5297118921861C530031F093 /* SEROCGU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297117E21861C520031F093 /* SEROCGU.swift */; };
+		5297118A21861C530031F093 /* TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297117F21861C520031F093 /* TO.swift */; };
+		5297118B21861C530031F093 /* TO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297117F21861C520031F093 /* TO.swift */; };
+		5297118E21861C530031F093 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118121861C520031F093 /* Data+Extensions.swift */; };
+		5297118F21861C530031F093 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118121861C520031F093 /* Data+Extensions.swift */; };
+		5297119221861C530031F093 /* DS125Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118321861C530031F093 /* DS125Data.swift */; };
+		5297119321861C530031F093 /* DS125Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118321861C530031F093 /* DS125Data.swift */; };
+		5297119421861C530031F093 /* SEROC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118421861C530031F093 /* SEROC.swift */; };
+		5297119521861C530031F093 /* SEROC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118421861C530031F093 /* SEROC.swift */; };
+		5297119621861C530031F093 /* TO2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118521861C530031F093 /* TO2.swift */; };
+		5297119721861C530031F093 /* TO2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118521861C530031F093 /* TO2.swift */; };
+		5297119821861C530031F093 /* SECG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118621861C530031F093 /* SECG.swift */; };
+		5297119921861C530031F093 /* SECG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118621861C530031F093 /* SECG.swift */; };
+		5297119A21861C530031F093 /* SECGGU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118721861C530031F093 /* SECGGU.swift */; };
+		5297119B21861C530031F093 /* SECGGU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5297118721861C530031F093 /* SECGGU.swift */; };
+		529951632184884E004002EE /* TOD_11000Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529951622184884E004002EE /* TOD_11000Lbs.swift */; };
+		529951642184884E004002EE /* TOD_11000Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529951622184884E004002EE /* TOD_11000Lbs.swift */; };
+		5299516621848EB6004002EE /* TOD_11500Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299516521848EB6004002EE /* TOD_11500Lbs.swift */; };
+		5299516721848EB6004002EE /* TOD_11500Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299516521848EB6004002EE /* TOD_11500Lbs.swift */; };
+		529951692184912E004002EE /* TOD_12000Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529951682184912E004002EE /* TOD_12000Lbs.swift */; };
+		5299516A2184912E004002EE /* TOD_12000Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529951682184912E004002EE /* TOD_12000Lbs.swift */; };
+		5299516C218494B9004002EE /* TOD_12500Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299516B218494B9004002EE /* TOD_12500Lbs.swift */; };
+		5299516D218494B9004002EE /* TOD_12500Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299516B218494B9004002EE /* TOD_12500Lbs.swift */; };
+		5299516F218496D4004002EE /* TOD_12700Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299516E218496D4004002EE /* TOD_12700Lbs.swift */; };
+		52995170218496D4004002EE /* TOD_12700Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299516E218496D4004002EE /* TOD_12700Lbs.swift */; };
+		52995172218499AA004002EE /* TOD_13000Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52995171218499AA004002EE /* TOD_13000Lbs.swift */; };
+		52995173218499AA004002EE /* TOD_13000Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52995171218499AA004002EE /* TOD_13000Lbs.swift */; };
+		52995175218499BE004002EE /* TOD_13500Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52995174218499BE004002EE /* TOD_13500Lbs.swift */; };
+		52995176218499BE004002EE /* TOD_13500Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52995174218499BE004002EE /* TOD_13500Lbs.swift */; };
+		52995178218499D0004002EE /* TOD_14000Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52995177218499D0004002EE /* TOD_14000Lbs.swift */; };
+		52995179218499D0004002EE /* TOD_14000Lbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52995177218499D0004002EE /* TOD_14000Lbs.swift */; };
 		52BC36762181173F003B8186 /* TemplateGonk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC36752181173F003B8186 /* TemplateGonk.swift */; };
 		52BC36772181173F003B8186 /* TemplateGonk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC36752181173F003B8186 /* TemplateGonk.swift */; };
 		52C798082181E2D300BBB7B1 /* CEFSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C798072181E2D300BBB7B1 /* CEFSTest.swift */; };
@@ -79,6 +138,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		52600FEE2187546400D30133 /* TODistance_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODistance_TO.swift; sourceTree = "<group>"; };
+		52600FF22187550500D30133 /* Rotation_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation_TO.swift; sourceTree = "<group>"; };
+		52600FF52187562000D30133 /* FiftyFtAlt_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiftyFtAlt_TO.swift; sourceTree = "<group>"; };
+		52600FF82187575E00D30133 /* DistTo50Ft_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistTo50Ft_TO.swift; sourceTree = "<group>"; };
+		52600FFB2187582800D30133 /* TO2Eng_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TO2Eng_TO.swift; sourceTree = "<group>"; };
+		52600FFE218758FD00D30133 /* TO1Eng_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TO1Eng_TO.swift; sourceTree = "<group>"; };
+		526010012188270400D30133 /* SECG_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SECG_TO.swift; sourceTree = "<group>"; };
+		526010042188279C00D30133 /* CEFAS_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEFAS_TO.swift; sourceTree = "<group>"; };
+		526010072188291000D30133 /* CFL_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFL_TO.swift; sourceTree = "<group>"; };
+		5260100D21882A2900D30133 /* BL_GRD_Run_SE_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BL_GRD_Run_SE_TO.swift; sourceTree = "<group>"; };
+		5260101021882B2200D30133 /* TwoHundredFtMn_TO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoHundredFtMn_TO.swift; sourceTree = "<group>"; };
+		5260101421882F9600D30133 /* TODistance_TO2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODistance_TO2.swift; sourceTree = "<group>"; };
+		526010172188C43E00D30133 /* TO2_UnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TO2_UnitTest.swift; sourceTree = "<group>"; };
+		526010192188CC5300D30133 /* DistTo50Ft_TO2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistTo50Ft_TO2.swift; sourceTree = "<group>"; };
 		5290CC042180AB7000B7A61C /* T38A_TOLD_CLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = T38A_TOLD_CLI; sourceTree = BUILT_PRODUCTS_DIR; };
 		5290CC072180AB7000B7A61C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5290CC122180AB9C00B7A61C /* T38A_TOLD_CLI_UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T38A_TOLD_CLI_UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +184,22 @@
 		5290CC6A2180BC4C00B7A61C /* GonkSECG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GonkSECG.swift; sourceTree = "<group>"; };
 		5290CC6C2180BD0200B7A61C /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
 		5290CC6F2181073800B7A61C /* GonkScrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GonkScrap.swift; sourceTree = "<group>"; };
+		5297117E21861C520031F093 /* SEROCGU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEROCGU.swift; sourceTree = "<group>"; };
+		5297117F21861C520031F093 /* TO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TO.swift; sourceTree = "<group>"; };
+		5297118121861C520031F093 /* Data+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extensions.swift"; sourceTree = "<group>"; };
+		5297118321861C530031F093 /* DS125Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DS125Data.swift; sourceTree = "<group>"; };
+		5297118421861C530031F093 /* SEROC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEROC.swift; sourceTree = "<group>"; };
+		5297118521861C530031F093 /* TO2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TO2.swift; sourceTree = "<group>"; };
+		5297118621861C530031F093 /* SECG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECG.swift; sourceTree = "<group>"; };
+		5297118721861C530031F093 /* SECGGU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECGGU.swift; sourceTree = "<group>"; };
+		529951622184884E004002EE /* TOD_11000Lbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOD_11000Lbs.swift; sourceTree = "<group>"; };
+		5299516521848EB6004002EE /* TOD_11500Lbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOD_11500Lbs.swift; sourceTree = "<group>"; };
+		529951682184912E004002EE /* TOD_12000Lbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOD_12000Lbs.swift; sourceTree = "<group>"; };
+		5299516B218494B9004002EE /* TOD_12500Lbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOD_12500Lbs.swift; sourceTree = "<group>"; };
+		5299516E218496D4004002EE /* TOD_12700Lbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOD_12700Lbs.swift; sourceTree = "<group>"; };
+		52995171218499AA004002EE /* TOD_13000Lbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOD_13000Lbs.swift; sourceTree = "<group>"; };
+		52995174218499BE004002EE /* TOD_13500Lbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOD_13500Lbs.swift; sourceTree = "<group>"; };
+		52995177218499D0004002EE /* TOD_14000Lbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOD_14000Lbs.swift; sourceTree = "<group>"; };
 		52BC36752181173F003B8186 /* TemplateGonk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateGonk.swift; sourceTree = "<group>"; };
 		52C798072181E2D300BBB7B1 /* CEFSTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEFSTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,6 +222,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		525E5FF621833A99009DA52A /* Original */ = {
+			isa = PBXGroup;
+			children = (
+				5297119C21861C640031F093 /* Data */,
+				5290CC692180B89100B7A61C /* TOLD */,
+				5290CC662180AE8E00B7A61C /* Utilities */,
+				5290CC632180AE2400B7A61C /* Scrap */,
+			);
+			path = Original;
+			sourceTree = "<group>";
+		};
+		52600FF12187549800D30133 /* TO_Data */ = {
+			isa = PBXGroup;
+			children = (
+				5297117F21861C520031F093 /* TO.swift */,
+				52600FF22187550500D30133 /* Rotation_TO.swift */,
+				52600FEE2187546400D30133 /* TODistance_TO.swift */,
+				52600FF52187562000D30133 /* FiftyFtAlt_TO.swift */,
+				52600FF82187575E00D30133 /* DistTo50Ft_TO.swift */,
+				52600FFB2187582800D30133 /* TO2Eng_TO.swift */,
+				52600FFE218758FD00D30133 /* TO1Eng_TO.swift */,
+				526010012188270400D30133 /* SECG_TO.swift */,
+				526010042188279C00D30133 /* CEFAS_TO.swift */,
+				526010072188291000D30133 /* CFL_TO.swift */,
+				5260100D21882A2900D30133 /* BL_GRD_Run_SE_TO.swift */,
+				5260101021882B2200D30133 /* TwoHundredFtMn_TO.swift */,
+			);
+			path = TO_Data;
+			sourceTree = "<group>";
+		};
+		5260101321882DC300D30133 /* TO2_Data */ = {
+			isa = PBXGroup;
+			children = (
+				5297118521861C530031F093 /* TO2.swift */,
+				5260101421882F9600D30133 /* TODistance_TO2.swift */,
+				526010192188CC5300D30133 /* DistTo50Ft_TO2.swift */,
+			);
+			path = TO2_Data;
+			sourceTree = "<group>";
+		};
+		5260101C2188CD6300D30133 /* DataVerification */ = {
+			isa = PBXGroup;
+			children = (
+				526010172188C43E00D30133 /* TO2_UnitTest.swift */,
+			);
+			path = DataVerification;
+			sourceTree = "<group>";
+		};
 		52743DA42182237F0085042C /* TOTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,9 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				5290CC072180AB7000B7A61C /* main.swift */,
-				5290CC692180B89100B7A61C /* TOLD */,
-				5290CC662180AE8E00B7A61C /* Utilities */,
-				5290CC632180AE2400B7A61C /* Scrap */,
+				525E5FF621833A99009DA52A /* Original */,
 			);
 			path = T38A_TOLD_CLI;
 			sourceTree = "<group>";
@@ -176,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				5290CC162180AB9C00B7A61C /* Info.plist */,
+				5260101C2188CD6300D30133 /* DataVerification */,
 				52743DA42182237F0085042C /* TOTests */,
 			);
 			path = T38A_TOLD_CLI_UnitTests;
@@ -208,6 +344,7 @@
 			isa = PBXGroup;
 			children = (
 				5290CC1D2180ACE000B7A61C /* GonkTOData.swift */,
+				52995161218481B9004002EE /* TODistData */,
 				5290CC1E2180ACE000B7A61C /* NACSData.swift */,
 				5290CC2A2180ACE100B7A61C /* SETOSData.swift */,
 				5290CC2E2180ACE100B7A61C /* CEFSData.swift */,
@@ -251,14 +388,44 @@
 		5290CC692180B89100B7A61C /* TOLD */ = {
 			isa = PBXGroup;
 			children = (
-				5290CC6C2180BD0200B7A61C /* Inputs.swift */,
 				5290CC652180AE5C00B7A61C /* TO */,
+				5290CC6C2180BD0200B7A61C /* Inputs.swift */,
 				5290CC642180AE3300B7A61C /* SECG */,
 				5290CC682180AEB400B7A61C /* RS */,
 				5290CC672180AEA800B7A61C /* DS */,
 				52BC36752181173F003B8186 /* TemplateGonk.swift */,
 			);
 			path = TOLD;
+			sourceTree = "<group>";
+		};
+		5297119C21861C640031F093 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5297118121861C520031F093 /* Data+Extensions.swift */,
+				5297118321861C530031F093 /* DS125Data.swift */,
+				5297118621861C530031F093 /* SECG.swift */,
+				5297118721861C530031F093 /* SECGGU.swift */,
+				5297118421861C530031F093 /* SEROC.swift */,
+				5297117E21861C520031F093 /* SEROCGU.swift */,
+				52600FF12187549800D30133 /* TO_Data */,
+				5260101321882DC300D30133 /* TO2_Data */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		52995161218481B9004002EE /* TODistData */ = {
+			isa = PBXGroup;
+			children = (
+				529951622184884E004002EE /* TOD_11000Lbs.swift */,
+				5299516521848EB6004002EE /* TOD_11500Lbs.swift */,
+				529951682184912E004002EE /* TOD_12000Lbs.swift */,
+				5299516B218494B9004002EE /* TOD_12500Lbs.swift */,
+				5299516E218496D4004002EE /* TOD_12700Lbs.swift */,
+				52995171218499AA004002EE /* TOD_13000Lbs.swift */,
+				52995174218499BE004002EE /* TOD_13500Lbs.swift */,
+				52995177218499D0004002EE /* TOD_14000Lbs.swift */,
+			);
+			path = TODistData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,32 +517,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				5290CC472180ACE100B7A61C /* Double+Extensions.swift in Sources */,
+				5299516621848EB6004002EE /* TOD_11500Lbs.swift in Sources */,
 				5290CC442180ACE100B7A61C /* DS_Data.swift in Sources */,
 				5290CC352180ACE100B7A61C /* NACSData.swift in Sources */,
+				52600FEF2187546400D30133 /* TODistance_TO.swift in Sources */,
+				5260100E21882A2900D30133 /* BL_GRD_Run_SE_TO.swift in Sources */,
 				5290CC402180ACE100B7A61C /* SECG200FtNmGDNMIData.swift in Sources */,
+				526010082188291000D30133 /* CFL_TO.swift in Sources */,
+				5297119A21861C530031F093 /* SECGGU.swift in Sources */,
+				52995178218499D0004002EE /* TOD_14000Lbs.swift in Sources */,
 				5290CC3E2180ACE100B7A61C /* GonkDS.swift in Sources */,
+				529951692184912E004002EE /* TOD_12000Lbs.swift in Sources */,
+				52600FFF218758FD00D30133 /* TO1Eng_TO.swift in Sources */,
+				5260101A2188CC5300D30133 /* DistTo50Ft_TO2.swift in Sources */,
+				526010022188270400D30133 /* SECG_TO.swift in Sources */,
+				5297118821861C530031F093 /* SEROCGU.swift in Sources */,
 				5290CC3D2180ACE100B7A61C /* SECG190KiasNMIData.swift in Sources */,
+				52995175218499BE004002EE /* TOD_13500Lbs.swift in Sources */,
 				5290CC082180AB7000B7A61C /* main.swift in Sources */,
+				529951632184884E004002EE /* TOD_11000Lbs.swift in Sources */,
 				5290CC342180ACE100B7A61C /* GonkTOData.swift in Sources */,
 				5290CC362180ACE100B7A61C /* DSData.swift in Sources */,
+				5299516F218496D4004002EE /* TOD_12700Lbs.swift in Sources */,
+				5299516C218494B9004002EE /* TOD_12500Lbs.swift in Sources */,
+				52995172218499AA004002EE /* TOD_13000Lbs.swift in Sources */,
+				5260101121882B2200D30133 /* TwoHundredFtMn_TO.swift in Sources */,
 				5290CC3C2180ACE100B7A61C /* DensityRatio.swift in Sources */,
+				52600FF62187562000D30133 /* FiftyFtAlt_TO.swift in Sources */,
 				5290CC412180ACE100B7A61C /* SETOSData.swift in Sources */,
+				5297119221861C530031F093 /* DS125Data.swift in Sources */,
 				5290CC3F2180ACE100B7A61C /* Wind.swift in Sources */,
 				5290CC372180ACE100B7A61C /* SECG200ftNmGDKiasData.swift in Sources */,
+				5297119821861C530031F093 /* SECG.swift in Sources */,
 				5290CC432180ACE100B7A61C /* RS_BEOData.swift in Sources */,
+				5260101521882F9600D30133 /* TODistance_TO2.swift in Sources */,
 				5290CC382180ACE100B7A61C /* SECG190KiasFtNmData.swift in Sources */,
 				5290CC452180ACE100B7A61C /* CEFSData.swift in Sources */,
 				5290CC312180ACE100B7A61C /* GonkCleaned.swift in Sources */,
+				526010052188279C00D30133 /* CEFAS_TO.swift in Sources */,
+				52600FF32187550500D30133 /* Rotation_TO.swift in Sources */,
 				5290CC3B2180ACE100B7A61C /* CFLData.swift in Sources */,
 				5290CC6D2180BD0200B7A61C /* Inputs.swift in Sources */,
+				5297118E21861C530031F093 /* Data+Extensions.swift in Sources */,
 				5290CC422180ACE100B7A61C /* TakeOffDistanceData.swift in Sources */,
+				52600FFC2187582800D30133 /* TO2Eng_TO.swift in Sources */,
 				5290CC322180ACE100B7A61C /* Corrections.swift in Sources */,
 				5290CC702181073800B7A61C /* GonkScrap.swift in Sources */,
+				52600FF92187575E00D30133 /* DistTo50Ft_TO.swift in Sources */,
 				5290CC332180ACE100B7A61C /* GonkRS.swift in Sources */,
+				5297119421861C530031F093 /* SEROC.swift in Sources */,
 				5290CC3A2180ACE100B7A61C /* RS_EFData.swift in Sources */,
 				52BC36762181173F003B8186 /* TemplateGonk.swift in Sources */,
 				5290CC462180ACE100B7A61C /* ArraySolver.swift in Sources */,
 				5290CC6B2180BC4C00B7A61C /* GonkSECG.swift in Sources */,
+				5297119621861C530031F093 /* TO2.swift in Sources */,
+				5297118A21861C530031F093 /* TO.swift in Sources */,
 				5290CC392180ACE100B7A61C /* TOLDError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,31 +581,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				5290CC5B2180AD2C00B7A61C /* SECG190KiasFtNmData.swift in Sources */,
+				52995176218499BE004002EE /* TOD_13500Lbs.swift in Sources */,
+				52601000218758FD00D30133 /* TO1Eng_TO.swift in Sources */,
 				5290CC4F2180AD0D00B7A61C /* Corrections.swift in Sources */,
+				526010032188270400D30133 /* SECG_TO.swift in Sources */,
+				5297119B21861C530031F093 /* SECGGU.swift in Sources */,
+				529951642184884E004002EE /* TOD_11000Lbs.swift in Sources */,
 				5290CC592180AD2700B7A61C /* RS_BEOData.swift in Sources */,
+				52600FF02187546400D30133 /* TODistance_TO.swift in Sources */,
+				5297119921861C530031F093 /* SECG.swift in Sources */,
 				5290CC5D2180AD3100B7A61C /* SECG200ftNmGDKiasData.swift in Sources */,
 				52C798082181E2D300BBB7B1 /* CEFSTest.swift in Sources */,
 				5290CC522180AD1500B7A61C /* DS_Data.swift in Sources */,
+				5260101621882F9600D30133 /* TODistance_TO2.swift in Sources */,
+				5299516A2184912E004002EE /* TOD_12000Lbs.swift in Sources */,
+				52995170218496D4004002EE /* TOD_12700Lbs.swift in Sources */,
+				52600FF72187562000D30133 /* FiftyFtAlt_TO.swift in Sources */,
 				5290CC5F2180AD3700B7A61C /* SETOSData.swift in Sources */,
+				5297118B21861C530031F093 /* TO.swift in Sources */,
 				5290CC542180AD1A00B7A61C /* GonkCleaned.swift in Sources */,
+				5297119721861C530031F093 /* TO2.swift in Sources */,
+				52600FFA2187575E00D30133 /* DistTo50Ft_TO.swift in Sources */,
+				5297118921861C530031F093 /* SEROCGU.swift in Sources */,
+				5297118F21861C530031F093 /* Data+Extensions.swift in Sources */,
+				52600FFD2187582800D30133 /* TO2Eng_TO.swift in Sources */,
 				5290CC4E2180AD0A00B7A61C /* CFLData.swift in Sources */,
 				5290CC512180AD1200B7A61C /* Double+Extensions.swift in Sources */,
+				5299516D218494B9004002EE /* TOD_12500Lbs.swift in Sources */,
 				5290CC4D2180AD0600B7A61C /* CEFSData.swift in Sources */,
 				5290CC562180AD1F00B7A61C /* GonkRS.swift in Sources */,
 				5290CC5A2180AD2A00B7A61C /* RS_EFData.swift in Sources */,
+				52995179218499D0004002EE /* TOD_14000Lbs.swift in Sources */,
+				5299516721848EB6004002EE /* TOD_11500Lbs.swift in Sources */,
+				52600FF42187550500D30133 /* Rotation_TO.swift in Sources */,
 				5290CC582180AD2500B7A61C /* NACSData.swift in Sources */,
 				5290CC532180AD1800B7A61C /* DSData.swift in Sources */,
+				5297119521861C530031F093 /* SEROC.swift in Sources */,
+				5260101B2188CC5300D30133 /* DistTo50Ft_TO2.swift in Sources */,
+				526010182188C43E00D30133 /* TO2_UnitTest.swift in Sources */,
 				5290CC5C2180AD2F00B7A61C /* SECG190KiasNMIData.swift in Sources */,
 				5290CC502180AD1000B7A61C /* DensityRatio.swift in Sources */,
 				5290CC602180AD3900B7A61C /* TakeOffDistanceData.swift in Sources */,
+				526010062188279C00D30133 /* CEFAS_TO.swift in Sources */,
+				5260100F21882A2900D30133 /* BL_GRD_Run_SE_TO.swift in Sources */,
+				52995173218499AA004002EE /* TOD_13000Lbs.swift in Sources */,
 				5290CC552180AD1D00B7A61C /* GonkDS.swift in Sources */,
+				526010092188291000D30133 /* CFL_TO.swift in Sources */,
 				5290CC6E2180BD0200B7A61C /* Inputs.swift in Sources */,
+				5260101221882B2200D30133 /* TwoHundredFtMn_TO.swift in Sources */,
 				5290CC572180AD2200B7A61C /* GonkTOData.swift in Sources */,
 				5290CC4A2180ACEE00B7A61C /* CFLTest.swift in Sources */,
 				5290CC712181073800B7A61C /* GonkScrap.swift in Sources */,
 				5290CC5E2180AD3400B7A61C /* SECG200FtNmGDNMIData.swift in Sources */,
 				5290CC4C2180AD0300B7A61C /* ArraySolver.swift in Sources */,
 				52BC36772181173F003B8186 /* TemplateGonk.swift in Sources */,
+				5297119321861C530031F093 /* DS125Data.swift in Sources */,
 				5290CC4B2180ACEE00B7A61C /* TODistanceTest.swift in Sources */,
 				5290CC612180AD3C00B7A61C /* TOLDError.swift in Sources */,
 				5290CC622180AD3F00B7A61C /* Wind.swift in Sources */,
