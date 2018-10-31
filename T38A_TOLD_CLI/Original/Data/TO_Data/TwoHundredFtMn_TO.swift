@@ -38,7 +38,7 @@ struct TwoHundredFtMn_TO {
                 for t in tempCInput {
                     let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).twoHundredFtPerMin()
+                                         alt: altInput[a]).twoHundredFtPerMin
                     data[a][w].append(value)
         }}}}
     

@@ -40,7 +40,7 @@ struct CFL_TO {
                 for t in tempCInput {
                     let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).cfl()
+                                         alt: altInput[a]).cfl
                     data[a][w].append(value)
         }}}}
     

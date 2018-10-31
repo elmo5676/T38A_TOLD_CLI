@@ -40,7 +40,7 @@ struct CEFAS_TO {
                 for t in tempCInput {
                     let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).cefas()
+                                         alt: altInput[a]).cefas
                     data[a][w].append(value)
         }}}}
     

@@ -9,6 +9,15 @@
 import Foundation
 
 extension DS125 {
+    var ds: Double {
+        let a = Int((self.rwyLength * pow(10, 7)).rounded(.up))
+        let b = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
+        let c = Int(self.weight/10)
+        let d = Int(self.alt/1000)
+        let key = String(a + b + c + d)
+        return self.data[key] ?? 999999.5
+    }
+    
     func returnValue() -> Double {
         let a = Int((self.rwyLength * pow(10, 7)).rounded(.up))
         let b = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
@@ -59,7 +68,7 @@ extension SEROCGU {
     }}
 
 extension TO {
-    func rotation() -> Double {
+    var rotation: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -67,7 +76,7 @@ extension TO {
         return self.data[key]?[0] ?? 999999.5
     }
     
-    func toDistance() -> Double {
+    var toDistance: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -75,7 +84,7 @@ extension TO {
         return self.data[key]?[1] ?? 999999.5
     }
     
-    func fiftyFtAlt() -> Double {
+    var fiftyFtAlt: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -83,7 +92,7 @@ extension TO {
         return self.data[key]?[2] ?? 999999.5
     }
     
-    func distanceTo50Ft() -> Double {
+    var distanceTo50Ft: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -91,7 +100,7 @@ extension TO {
         return self.data[key]?[3] ?? 999999.5
     }
     
-    func to2Eng() -> Double {
+    var to2Eng: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -99,7 +108,7 @@ extension TO {
         return self.data[key]?[4] ?? 999999.5
     }
     
-    func to1Eng() -> Double {
+    var to1Eng: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -107,7 +116,7 @@ extension TO {
         return self.data[key]?[5] ?? 999999.5
     }
     
-    func secg() -> Double {
+    var secg: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -115,7 +124,7 @@ extension TO {
         return self.data[key]?[6] ?? 999999.5
     }
     
-    func cefas() -> Double {
+    var cefas: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -123,7 +132,7 @@ extension TO {
         return self.data[key]?[7] ?? 999999.5
     }
     
-    func cfl() -> Double {
+    var cfl: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -131,7 +140,7 @@ extension TO {
         return self.data[key]?[8] ?? 999999.5
     }
     
-    func baseLineGroundRunSE() -> Double {
+    var baseLineGroundRunSE: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)
@@ -139,7 +148,7 @@ extension TO {
         return self.data[key]?[9] ?? 999999.5
     }
     
-    func twoHundredFtPerMin() -> Double {
+    var twoHundredFtPerMin: Double {
         let a = Int((self.tempC.CtoK * pow(10, 6)).rounded(.up))
         let b = Int(self.weight/10)
         let c = Int(self.alt/1000)

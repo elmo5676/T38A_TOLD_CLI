@@ -27,7 +27,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).rotation()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).rotation
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -54,7 +54,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).toDistance()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).toDistance
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -80,7 +80,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).fiftyFtAlt()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).fiftyFtAlt
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -106,7 +106,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).distanceTo50Ft()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).distanceTo50Ft
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -132,7 +132,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).to2Eng()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).to2Eng
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -158,7 +158,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).to1Eng()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).to1Eng
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -184,7 +184,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).secg()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).secg
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -210,7 +210,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).cefas()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).cefas
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -236,7 +236,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).cfl()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).cfl
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -262,7 +262,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).baseLineGroundRunSE()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).baseLineGroundRunSE
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)
@@ -288,7 +288,7 @@ class TO_UnitTest: XCTestCase {
                 var weightTempDataPoints: [Double] = []
                 var weightTempTestReturn: [Double] = []
                 for t in 0...(tempCInput.count - 1) {
-                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).twoHundredFtPerMin()
+                    let value = TO(tempC: tempCInput[t], weight: weightInput[wt], alt: altInput[a]).twoHundredFtPerMin
                     let testValue = testValueDataArray[a][wt][t]
                     weightTempDataPoints.append(value)
                     weightTempTestReturn.append(testValue)

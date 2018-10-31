@@ -41,7 +41,7 @@ struct SECG_TO {
                 for t in tempCInput {
                     let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).secg()
+                                         alt: altInput[a]).secg
                     data[a][w].append(value)
         }}}}
     

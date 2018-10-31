@@ -39,7 +39,7 @@ struct FiftyFtAlt_TO {
                 for t in tempCInput {
                     let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).fiftyFtAlt()
+                                         alt: altInput[a]).fiftyFtAlt
                     data[a][w].append(value)
         }}}}
     

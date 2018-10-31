@@ -40,7 +40,7 @@ struct TO1Eng_TO {
                 for t in tempCInput {
                     let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).to1Eng()
+                                         alt: altInput[a]).to1Eng
                     data[a][w].append(value)
         }}}}
     

@@ -39,7 +39,7 @@ struct TODistance_TO {
                 for t in tempCInput {
                     let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).toDistance()
+                                         alt: altInput[a]).toDistance
                     data[a][w].append(value)
                     }}
             print("***************************************************")

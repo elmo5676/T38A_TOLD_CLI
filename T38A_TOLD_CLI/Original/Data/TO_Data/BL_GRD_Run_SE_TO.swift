@@ -40,7 +40,7 @@ struct BL_GRD_Run_SE_TO {
                 for t in tempCInput {
                     let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).baseLineGroundRunSE()
+                                         alt: altInput[a]).baseLineGroundRunSE
                     data[a][w].append(value)
         }}}}
     

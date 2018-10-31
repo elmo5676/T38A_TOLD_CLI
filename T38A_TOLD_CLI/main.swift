@@ -137,8 +137,9 @@ var TOD_14000Lbs_0K: [Double] = []
 
 
 
-
-let to = TODistance_TO()
+let ds = DS125().data
+print(ds)
+//let to = TODistance_TO()
 //let rot = Rotation_TO()
 //print(rot.data)
 //let fiftyFtAlt = FiftyFtAlt_TO()

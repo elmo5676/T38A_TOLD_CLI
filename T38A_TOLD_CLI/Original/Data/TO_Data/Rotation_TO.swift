@@ -40,8 +40,7 @@ struct Rotation_TO {
                 for t in tempCInput {
                     let value = TO(tempC: t,
                                          weight: weightInput[w],
-                                         alt: altInput[a]).rotation()  //.returnValue()
-//                    data[a][w].append(value[0])
+                                         alt: altInput[a]).rotation
                     data[a][w].append(value)
                 }}
                         print("***************************************************")

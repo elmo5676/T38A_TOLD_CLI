@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:T38A_TOLD_CLI.xcodeproj">
+      location = "self:/Users/elmo/Desktop/03_Working/T38A_TOLD_CLI/T38A_TOLD_CLI.xcodeproj">
    </FileRef>
 </Workspace>
